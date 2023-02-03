@@ -142,7 +142,12 @@
 				"D:/GameJam/KorzonkiOne/Content/Characters/Mannequins/Animations/Manny/MM_Jump.uasset",
 				"D:/GameJam/KorzonkiOne/Content/Characters/Mannequins/Animations/Manny/MM_Land.uasset",
 				"D:/GameJam/KorzonkiOne/Content/Characters/Mannequins/Animations/Manny/MM_Run_Fwd.uasset",
-				"D:/GameJam/KorzonkiOne/Content/Characters/Mannequins/Animations/Manny/MM_Walk_Fwd.uasset"
+				"D:/GameJam/KorzonkiOne/Content/Characters/Mannequins/Animations/Manny/MM_Walk_Fwd.uasset",
+				"D:/GameJam/KorzonkiOne/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"D:/GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_KorzonkiGamemode.uasset",
+				"D:/GameJam/KorzonkiOne/Content/KorzonkiOne/Levels/StartLevel.umap",
+				"D:/GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_CameraPawn.uasset",
+				"D:/GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_KorzonkiGamestate.uasset"
 			]
 		}
 	]
