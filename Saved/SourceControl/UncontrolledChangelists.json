@@ -5,6 +5,9 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"E:/lubjam/Korzonki2023/Content/KorzonkiOne/Levels/StartLevel.umap",
+				"E:/lubjam/Korzonki2023/Content/KorzonkiOne/Core/BP_CameraPawn.uasset",
+				"E:/lubjam/Korzonki2023/Content/KorzonkiOne/Core/bp_first_actor.uasset",
 				"D:/GameJam/KorzonkiOne/Content/Characters/Mannequin_UE4/Textures/T_ML_Aluminum01.uasset",
 				"D:/GameJam/KorzonkiOne/Content/Characters/Mannequin_UE4/Textures/T_ML_Aluminum01_N.uasset",
 				"D:/GameJam/KorzonkiOne/Content/Characters/Mannequin_UE4/Textures/T_ML_Rubber_Blue_01_D.uasset",
