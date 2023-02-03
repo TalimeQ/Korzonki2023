@@ -1247,3 +1247,18 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.02.03-19.01.42:458][811]LogShaderCompilers: Display:                                                 FLumenCardVS - 5.67% of total time (compiled    9 times, average 0.80 sec, max 1.06 sec, min 0.63 sec)
 [2023.02.03-19.01.42:458][811]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 4.86% of total time (compiled   11 times, average 0.56 sec, max 1.00 sec, min 0.36 sec)
 [2023.02.03-19.01.42:458][811]LogShaderCompilers: Display: ================================================
+[2023.02.03-19.07.06:082][739]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.02.03-19.07.06:087][739]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.014
+[2023.02.03-19.07.06:090][739]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2023.02.03-19.07.06:090][739]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2023.02.03-19.07.06:096][739]LogPackageLocalizationCache: Processed 43 localized package path(s) for 1 prioritized culture(s) in 0.005187 seconds
+[2023.02.03-19.07.06:110][739]LogSerialization: UsePackageTrailer: 'true'
+[2023.02.03-19.07.06:116][739]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto1
+[2023.02.03-19.07.06:116][739]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/BP_ThirdPersonCharacter_Auto1F969C28F49675F08AE5F6E89AEE71E19.tmp' to '../../../../../../GameJam/KorzonkiOne/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto1.uasset'
+[2023.02.03-19.07.06:120][739]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Mannequins/Rigs/CR_Mannequin_BasicFootIK_Auto1
+[2023.02.03-19.07.06:121][739]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/CR_Mannequin_BasicFootIK_Auto19A104AA04C60468BB83A5F8D7F9F76E4.tmp' to '../../../../../../GameJam/KorzonkiOne/Saved/Autosaves/Game/Characters/Mannequins/Rigs/CR_Mannequin_BasicFootIK_Auto1.uasset'
+[2023.02.03-19.07.06:126][739]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Mannequins/Rigs/CR_Mannequin_Procedural_Auto1
+[2023.02.03-19.07.06:126][739]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/CR_Mannequin_Procedural_Auto1FA8001EB4E066588E2933685A9713CB6.tmp' to '../../../../../../GameJam/KorzonkiOne/Saved/Autosaves/Game/Characters/Mannequins/Rigs/CR_Mannequin_Procedural_Auto1.uasset'
+[2023.02.03-19.07.06:163][739]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Mannequins/Rigs/CR_Mannequin_Body_Auto1
+[2023.02.03-19.07.06:163][739]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/CR_Mannequin_Body_Auto1E211C706404B2799B2088EA08C0AD5BA.tmp' to '../../../../../../GameJam/KorzonkiOne/Saved/Autosaves/Game/Characters/Mannequins/Rigs/CR_Mannequin_Body_Auto1.uasset'
+[2023.02.03-19.07.06:164][739]LogFileHelpers: Auto-saving content packages took 0.077
