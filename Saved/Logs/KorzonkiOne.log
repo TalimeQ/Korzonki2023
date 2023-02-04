@@ -4229,3 +4229,1014 @@ Script call stack:
 [2023.02.04-16.04.35:187][772]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/KorzonkiOne/Core/ScoringZone.ScoringZone without an associated node. The blueprint breakpoint has been removed
 [2023.02.04-16.04.36:506][837]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/KorzonkiOne/Core/ScoringZone.ScoringZone without an associated node. The blueprint breakpoint has been removed
 [2023.02.04-16.04.36:506][837]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/KorzonkiOne/Core/ScoringZone.ScoringZone without an associated node. The blueprint breakpoint has been removed
+[2023.02.04-16.06.28:778][463]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.02.04-16.06.28:784][463]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.04-16.06.28:784][463]PIE: New page: PIE session: StartLevel (4 lut 2023, 18:06:28)
+[2023.02.04-16.06.28:784][463]LogPlayLevel: Creating play world package: /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel
+[2023.02.04-16.06.28:787][463]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003006s)
+[2023.02.04-16.06.28:787][463]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/KorzonkiOne/Levels/StartLevel.StartLevel to /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel.StartLevel (0.003038s)
+[2023.02.04-16.06.28:787][463]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.04-16.06.28:788][463]LogAIModule: Creating AISystem for world StartLevel
+[2023.02.04-16.06.28:788][463]LogPlayLevel: PIE: World Init took: (0.000981s)
+[2023.02.04-16.06.28:865][463]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2023.02.04-16.06.28:868][463]LogAudio: Display: Creating Audio Device:                 Id: 33, Scope: Unique, Realtime: True
+[2023.02.04-16.06.28:868][463]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.04-16.06.28:868][463]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.04-16.06.28:868][463]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.04-16.06.28:868][463]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.04-16.06.28:868][463]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.02.04-16.06.28:868][463]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.02.04-16.06.28:868][463]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.02.04-16.06.28:868][463]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.04-16.06.28:868][463]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.04-16.06.28:868][463]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.04-16.06.28:868][463]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.04-16.06.28:870][463]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.02.04-16.06.28:887][463]LogAudioMixer: Display: Using Audio Hardware Device Głośniki (Razer Kraken X USB)
+[2023.02.04-16.06.28:887][463]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.04-16.06.28:887][463]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.04-16.06.28:887][463]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.04-16.06.28:888][463]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=33
+[2023.02.04-16.06.28:888][463]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=33
+[2023.02.04-16.06.28:890][463]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=33
+[2023.02.04-16.06.28:890][463]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=33
+[2023.02.04-16.06.28:890][463]LogInit: FAudioDevice initialized.
+[2023.02.04-16.06.28:890][463]LogAudio: Display: Audio Device (ID: 33) registered with world 'StartLevel'.
+[2023.02.04-16.06.28:893][463]LogLoad: Game class is 'BP_KorzonkiGamemode_C'
+[2023.02.04-16.06.28:894][463]LogWorld: Bringing World /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel.StartLevel up for play (max tick rate 0) at 2023.02.04-17.06.28
+[2023.02.04-16.06.28:894][463]LogWorld: Bringing up level for play took: 0.000908
+[2023.02.04-16.06.28:896][463]LogOnline: OSS: Created online subsystem instance for: :Context_50
+[2023.02.04-16.06.28:898][463]PIE: Server logged in
+[2023.02.04-16.06.28:899][463]PIE: Play in editor total start time 0,114 seconds.
+[2023.02.04-16.06.31:516][624]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.04-16.06.31:516][624]LogWorld: BeginTearingDown for /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel
+[2023.02.04-16.06.31:516][624]LogWorld: UWorld::CleanupWorld for StartLevel, bSessionEnded=true, bCleanupResources=true
+[2023.02.04-16.06.31:517][624]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.04-16.06.31:531][624]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.04-16.06.31:537][624]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.04-16.06.31:607][624]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.04-16.06.31:607][624]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2023.02.04-16.06.31:609][624]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2023.02.04-16.06.31:617][624]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2023.02.04-16.06.31:654][625]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2023.02.04-16.07.31:645][869]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/KorzonkiOne/Blueprint/Game_UI.Game_UI
+[2023.02.04-16.07.31:646][869]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.04-16.07.31:667][869]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.04-16.07.32:169][869]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.04-16.07.32:169][869]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.04-16.09.03:927][894]BlueprintLog: New page: Compile Game_UI
+[2023.02.04-16.09.04:052][894]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2023.02.04-16.09.04:986][925]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.09.05:082][925]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Blueprint/Game_UI" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Blueprint/Game_UI.uasset" SILENT=true
+[2023.02.04-16.09.05:086][925]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Blueprint/Game_UI
+[2023.02.04-16.09.05:087][925]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/Game_UIBE67765C41FBA5185A2920BDCCA98465.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Blueprint/Game_UI.uasset'
+[2023.02.04-16.09.05:096][925]LogFileHelpers: InternalPromptForCheckoutAndSave took 109 ms (total: 13.5 sec)
+[2023.02.04-16.09.05:111][925]AssetCheck: New page: Asset Save: Game_UI
+[2023.02.04-16.09.05:111][925]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/KorzonkiOne/Blueprint/Game_UI.Game_UI
+[2023.02.04-16.09.05:494][938]BlueprintLog: New page: Compile Game_UI
+[2023.02.04-16.09.05:607][938]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2023.02.04-16.09.13:882][337]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.09.14:022][337]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Core/BP_PlayerCharacter" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_PlayerCharacter.uasset" SILENT=true
+[2023.02.04-16.09.14:042][337]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Core/BP_PlayerCharacter
+[2023.02.04-16.09.14:042][337]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/BP_PlayerCharacter8487BBC445F2E48673222D93C1F67513.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_PlayerCharacter.uasset'
+[2023.02.04-16.09.14:055][337]LogFileHelpers: InternalPromptForCheckoutAndSave took 172 ms (total: 13.6 sec)
+[2023.02.04-16.09.14:070][337]AssetCheck: New page: Asset Save: BP_PlayerCharacter
+[2023.02.04-16.09.14:070][337]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/KorzonkiOne/Core/BP_PlayerCharacter.BP_PlayerCharacter
+[2023.02.04-16.09.14:351][350]BlueprintLog: New page: Compile BP_PlayerCharacter
+[2023.02.04-16.09.14:513][350]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2023.02.04-16.10.53:647][613]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.10.53:770][613]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Blueprint/Game_UI" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Blueprint/Game_UI.uasset" SILENT=true
+[2023.02.04-16.10.53:776][613]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Blueprint/Game_UI
+[2023.02.04-16.10.53:777][613]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/Game_UI0B9F9C4749A7AD9545A2859C90F07A50.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Blueprint/Game_UI.uasset'
+[2023.02.04-16.10.53:786][613]LogFileHelpers: InternalPromptForCheckoutAndSave took 139 ms (total: 13.8 sec)
+[2023.02.04-16.10.53:799][613]AssetCheck: New page: Asset Save: Game_UI
+[2023.02.04-16.10.53:799][613]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/KorzonkiOne/Blueprint/Game_UI.Game_UI
+[2023.02.04-16.10.54:005][625]BlueprintLog: New page: Compile Game_UI
+[2023.02.04-16.10.54:127][625]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2023.02.04-16.10.57:487][789]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.10.57:619][789]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Core/BP_KorzonkiGamestate" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_KorzonkiGamestate.uasset" SILENT=true
+[2023.02.04-16.10.57:632][789]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Core/BP_KorzonkiGamestate
+[2023.02.04-16.10.57:633][789]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/BP_KorzonkiGamestate1A35182B4CC5549D16ED21886D9E655D.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_KorzonkiGamestate.uasset'
+[2023.02.04-16.10.57:642][789]LogFileHelpers: InternalPromptForCheckoutAndSave took 154 ms (total: 13.9 sec)
+[2023.02.04-16.10.57:652][789]AssetCheck: New page: Asset Save: BP_KorzonkiGamestate
+[2023.02.04-16.10.57:652][789]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/KorzonkiOne/Core/BP_KorzonkiGamestate.BP_KorzonkiGamestate
+[2023.02.04-16.10.57:843][800]BlueprintLog: New page: Compile BP_KorzonkiGamestate
+[2023.02.04-16.10.58:003][800]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2023.02.04-16.11.35:719][179]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.11.35:831][179]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Blueprint/Game_UI" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Blueprint/Game_UI.uasset" SILENT=true
+[2023.02.04-16.11.35:838][179]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Blueprint/Game_UI
+[2023.02.04-16.11.35:838][179]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/Game_UI975A353A4496027760D79297D9312A88.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Blueprint/Game_UI.uasset'
+[2023.02.04-16.11.35:848][179]LogFileHelpers: InternalPromptForCheckoutAndSave took 128 ms (total: 14.0 sec)
+[2023.02.04-16.11.35:860][179]AssetCheck: New page: Asset Save: Game_UI
+[2023.02.04-16.11.35:860][179]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/KorzonkiOne/Blueprint/Game_UI.Game_UI
+[2023.02.04-16.11.36:070][192]BlueprintLog: New page: Compile Game_UI
+[2023.02.04-16.11.36:187][192]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2023.02.04-16.12.35:793][147]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.12.35:917][147]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Core/BP_KorzonkiController" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_KorzonkiController.uasset" SILENT=true
+[2023.02.04-16.12.35:934][147]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Core/BP_KorzonkiController
+[2023.02.04-16.12.35:934][147]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/BP_KorzonkiController2DE56D894524BE09092E7A8FEF9DD063.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_KorzonkiController.uasset'
+[2023.02.04-16.12.35:944][147]LogFileHelpers: InternalPromptForCheckoutAndSave took 151 ms (total: 14.2 sec)
+[2023.02.04-16.12.35:953][147]AssetCheck: New page: Asset Save: BP_KorzonkiController
+[2023.02.04-16.12.35:953][147]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/KorzonkiOne/Core/BP_KorzonkiController.BP_KorzonkiController
+[2023.02.04-16.12.36:251][163]BlueprintLog: New page: Compile BP_KorzonkiController
+[2023.02.04-16.12.36:403][163]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2023.02.04-16.13.18:309][321]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.04-16.13.18:309][321]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.04-16.13.24:807][612]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.13.24:906][612]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Blueprint/Game_UI" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Blueprint/Game_UI.uasset" SILENT=true
+[2023.02.04-16.13.24:914][612]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Blueprint/Game_UI
+[2023.02.04-16.13.24:915][612]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/Game_UICCF883BB455AD66D3BB2C7B8713A5B3E.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Blueprint/Game_UI.uasset'
+[2023.02.04-16.13.24:925][612]LogFileHelpers: InternalPromptForCheckoutAndSave took 118 ms (total: 14.3 sec)
+[2023.02.04-16.13.24:937][612]AssetCheck: New page: Asset Save: Game_UI
+[2023.02.04-16.13.24:937][612]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/KorzonkiOne/Blueprint/Game_UI.Game_UI
+[2023.02.04-16.13.25:160][622]BlueprintLog: New page: Compile Game_UI
+[2023.02.04-16.13.25:283][622]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2023.02.04-16.15.17:758][409]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.15.17:884][409]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Blueprint/Game_UI" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Blueprint/Game_UI.uasset" SILENT=true
+[2023.02.04-16.15.17:893][409]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Blueprint/Game_UI
+[2023.02.04-16.15.17:893][409]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/Game_UIACD36BAC4AEE619DF36C66B45293FA5C.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Blueprint/Game_UI.uasset'
+[2023.02.04-16.15.17:903][409]LogFileHelpers: InternalPromptForCheckoutAndSave took 144 ms (total: 14.5 sec)
+[2023.02.04-16.15.17:915][409]AssetCheck: New page: Asset Save: Game_UI
+[2023.02.04-16.15.17:915][409]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/KorzonkiOne/Blueprint/Game_UI.Game_UI
+[2023.02.04-16.15.18:116][420]BlueprintLog: New page: Compile Game_UI
+[2023.02.04-16.15.18:242][420]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2023.02.04-16.15.18:655][440]BlueprintLog: New page: Compile Game_UI
+[2023.02.04-16.15.18:773][440]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2023.02.04-16.15.21:830][582]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.15.21:936][582]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Blueprint/Game_UI" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Blueprint/Game_UI.uasset" SILENT=true
+[2023.02.04-16.15.21:946][582]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Blueprint/Game_UI
+[2023.02.04-16.15.21:946][582]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/Game_UI1170E6694006C91698F76AA8B1694433.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Blueprint/Game_UI.uasset'
+[2023.02.04-16.15.21:956][582]LogFileHelpers: InternalPromptForCheckoutAndSave took 126 ms (total: 14.6 sec)
+[2023.02.04-16.15.21:969][582]AssetCheck: New page: Asset Save: Game_UI
+[2023.02.04-16.15.21:969][582]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/KorzonkiOne/Blueprint/Game_UI.Game_UI
+[2023.02.04-16.15.22:211][595]BlueprintLog: New page: Compile Game_UI
+[2023.02.04-16.15.22:336][595]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2023.02.04-16.15.53:248][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.02.04-16.15.53:261][ 19]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/KorzonkiOne/Levels/StartLevel_Auto6
+[2023.02.04-16.15.53:261][ 19]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/StartLevel_Auto691CF1D0A406C01C6E6AFD5986F58F6B5.tmp' to '../../../../../../GameJam/KorzonkiOne/Saved/Autosaves/Game/KorzonkiOne/Levels/StartLevel_Auto6.umap'
+[2023.02.04-16.15.53:268][ 19]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/KorzonkiOne/Levels/StartLevel' took 0.092
+[2023.02.04-16.15.53:268][ 19]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.092
+[2023.02.04-16.16.19:002][172]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.02.04-16.16.19:007][172]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.04-16.16.19:008][172]PIE: New page: PIE session: StartLevel (4 lut 2023, 18:16:19)
+[2023.02.04-16.16.19:008][172]LogPlayLevel: Creating play world package: /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel
+[2023.02.04-16.16.19:011][172]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003954s)
+[2023.02.04-16.16.19:011][172]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/KorzonkiOne/Levels/StartLevel.StartLevel to /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel.StartLevel (0.004015s)
+[2023.02.04-16.16.19:011][172]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.04-16.16.19:012][172]LogAIModule: Creating AISystem for world StartLevel
+[2023.02.04-16.16.19:012][172]LogPlayLevel: PIE: World Init took: (0.000704s)
+[2023.02.04-16.16.19:086][172]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2023.02.04-16.16.19:088][172]LogAudio: Display: Creating Audio Device:                 Id: 34, Scope: Unique, Realtime: True
+[2023.02.04-16.16.19:088][172]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.04-16.16.19:088][172]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.04-16.16.19:089][172]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.04-16.16.19:089][172]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.04-16.16.19:089][172]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.02.04-16.16.19:089][172]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.02.04-16.16.19:089][172]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.02.04-16.16.19:089][172]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.04-16.16.19:089][172]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.04-16.16.19:089][172]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.04-16.16.19:089][172]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.04-16.16.19:091][172]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.02.04-16.16.19:111][172]LogAudioMixer: Display: Using Audio Hardware Device Głośniki (Razer Kraken X USB)
+[2023.02.04-16.16.19:111][172]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.04-16.16.19:111][172]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.04-16.16.19:111][172]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.04-16.16.19:112][172]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=34
+[2023.02.04-16.16.19:112][172]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=34
+[2023.02.04-16.16.19:113][172]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=34
+[2023.02.04-16.16.19:113][172]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=34
+[2023.02.04-16.16.19:114][172]LogInit: FAudioDevice initialized.
+[2023.02.04-16.16.19:114][172]LogAudio: Display: Audio Device (ID: 34) registered with world 'StartLevel'.
+[2023.02.04-16.16.19:116][172]LogLoad: Game class is 'BP_KorzonkiGamemode_C'
+[2023.02.04-16.16.19:117][172]LogWorld: Bringing World /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel.StartLevel up for play (max tick rate 0) at 2023.02.04-17.16.19
+[2023.02.04-16.16.19:117][172]LogWorld: Bringing up level for play took: 0.000944
+[2023.02.04-16.16.19:119][172]LogOnline: OSS: Created online subsystem instance for: :Context_53
+[2023.02.04-16.16.19:122][172]PIE: Server logged in
+[2023.02.04-16.16.19:122][172]PIE: Play in editor total start time 0,116 seconds.
+[2023.02.04-16.16.30:971][998]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_ComponentBoundEvent', from offset 0
+[2023.02.04-16.16.30:971][998]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/KorzonkiOne/Core/ScoringZone.ScoringZone_C:BndEvt__ScoringZone_Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature
+
+[2023.02.04-16.18.52:006][246]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.04-16.18.52:006][246]LogWorld: BeginTearingDown for /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel
+[2023.02.04-16.18.52:006][246]LogWorld: UWorld::CleanupWorld for StartLevel, bSessionEnded=true, bCleanupResources=true
+[2023.02.04-16.18.52:007][246]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.04-16.18.52:022][246]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.04-16.18.52:028][246]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.04-16.18.52:107][246]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.04-16.18.52:108][246]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2023.02.04-16.18.52:109][246]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2023.02.04-16.18.52:118][246]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2023.02.04-16.18.52:206][247]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2023.02.04-16.19.16:564][ 90]LogSlate: Window 'Blueprint Debugger' being destroyed
+[2023.02.04-16.19.16:583][ 90]LogSlate: Window 'Blueprint Debugger' being destroyed
+[2023.02.04-16.19.40:450][415]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.19.40:574][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Core/BP_KorzonkiController" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_KorzonkiController.uasset" SILENT=true
+[2023.02.04-16.19.40:591][415]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Core/BP_KorzonkiController
+[2023.02.04-16.19.40:591][415]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/BP_KorzonkiController7269E57349811FFC71D7DB97CC9301D4.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_KorzonkiController.uasset'
+[2023.02.04-16.19.40:602][415]LogFileHelpers: InternalPromptForCheckoutAndSave took 151 ms (total: 14.7 sec)
+[2023.02.04-16.19.40:611][415]AssetCheck: New page: Asset Save: BP_KorzonkiController
+[2023.02.04-16.19.40:611][415]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/KorzonkiOne/Core/BP_KorzonkiController.BP_KorzonkiController
+[2023.02.04-16.19.40:737][423]BlueprintLog: New page: Compile BP_KorzonkiController
+[2023.02.04-16.19.40:904][423]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2023.02.04-16.20.03:760][632]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.02.04-16.20.03:760][632]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.02.04-16.20.03:760][632]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.02.04-16.20.09:296][951]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.20.09:438][951]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Core/BP_KorzonkiGamestate" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_KorzonkiGamestate.uasset" SILENT=true
+[2023.02.04-16.20.09:452][951]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Core/BP_KorzonkiGamestate
+[2023.02.04-16.20.09:453][951]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/BP_KorzonkiGamestate45A821824025F7D36465FFB5B668063B.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_KorzonkiGamestate.uasset'
+[2023.02.04-16.20.09:461][951]LogFileHelpers: InternalPromptForCheckoutAndSave took 165 ms (total: 14.9 sec)
+[2023.02.04-16.20.09:470][951]AssetCheck: New page: Asset Save: BP_KorzonkiGamestate
+[2023.02.04-16.20.09:470][951]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/KorzonkiOne/Core/BP_KorzonkiGamestate.BP_KorzonkiGamestate
+[2023.02.04-16.20.09:772][970]BlueprintLog: New page: Compile BP_KorzonkiGamestate
+[2023.02.04-16.20.09:946][970]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2023.02.04-16.20.10:269][986]BlueprintLog: New page: Compile BP_KorzonkiGamestate
+[2023.02.04-16.20.10:399][986]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2023.02.04-16.20.11:222][ 28]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.02.04-16.20.11:235][ 28]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.04-16.20.11:235][ 28]PIE: New page: PIE session: StartLevel (4 lut 2023, 18:20:11)
+[2023.02.04-16.20.11:235][ 28]LogPlayLevel: Creating play world package: /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel
+[2023.02.04-16.20.11:239][ 28]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003630s)
+[2023.02.04-16.20.11:239][ 28]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/KorzonkiOne/Levels/StartLevel.StartLevel to /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel.StartLevel (0.003668s)
+[2023.02.04-16.20.11:239][ 28]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.04-16.20.11:240][ 28]LogAIModule: Creating AISystem for world StartLevel
+[2023.02.04-16.20.11:240][ 28]LogPlayLevel: PIE: World Init took: (0.001199s)
+[2023.02.04-16.20.11:322][ 28]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2023.02.04-16.20.11:327][ 28]LogAudio: Display: Creating Audio Device:                 Id: 35, Scope: Unique, Realtime: True
+[2023.02.04-16.20.11:327][ 28]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.04-16.20.11:327][ 28]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.04-16.20.11:328][ 28]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.04-16.20.11:328][ 28]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.04-16.20.11:328][ 28]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.02.04-16.20.11:328][ 28]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.02.04-16.20.11:328][ 28]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.02.04-16.20.11:328][ 28]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.04-16.20.11:328][ 28]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.04-16.20.11:328][ 28]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.04-16.20.11:328][ 28]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.04-16.20.11:330][ 28]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.02.04-16.20.11:349][ 28]LogAudioMixer: Display: Using Audio Hardware Device Głośniki (Razer Kraken X USB)
+[2023.02.04-16.20.11:349][ 28]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.04-16.20.11:349][ 28]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.04-16.20.11:349][ 28]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.04-16.20.11:351][ 28]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=35
+[2023.02.04-16.20.11:351][ 28]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=35
+[2023.02.04-16.20.11:352][ 28]LogInit: FAudioDevice initialized.
+[2023.02.04-16.20.11:352][ 28]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=35
+[2023.02.04-16.20.11:352][ 28]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=35
+[2023.02.04-16.20.11:352][ 28]LogAudio: Display: Audio Device (ID: 35) registered with world 'StartLevel'.
+[2023.02.04-16.20.11:355][ 28]LogLoad: Game class is 'BP_KorzonkiGamemode_C'
+[2023.02.04-16.20.11:356][ 28]LogWorld: Bringing World /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel.StartLevel up for play (max tick rate 0) at 2023.02.04-17.20.11
+[2023.02.04-16.20.11:356][ 28]LogWorld: Bringing up level for play took: 0.001128
+[2023.02.04-16.20.11:359][ 28]LogOnline: OSS: Created online subsystem instance for: :Context_54
+[2023.02.04-16.20.11:362][ 28]PIE: Server logged in
+[2023.02.04-16.20.11:363][ 28]PIE: Play in editor total start time 0,128 seconds.
+[2023.02.04-16.20.13:506][170]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.04-16.20.13:506][170]LogWorld: BeginTearingDown for /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel
+[2023.02.04-16.20.13:506][170]LogWorld: UWorld::CleanupWorld for StartLevel, bSessionEnded=true, bCleanupResources=true
+[2023.02.04-16.20.13:507][170]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.04-16.20.13:520][170]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.04-16.20.13:527][170]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.04-16.20.13:604][170]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.04-16.20.13:604][170]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35
+[2023.02.04-16.20.13:606][170]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35
+[2023.02.04-16.20.13:613][170]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2023.02.04-16.20.13:674][171]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2023.02.04-16.20.22:622][667]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.04-16.20.22:622][667]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.04-16.20.39:408][413]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.20.39:554][413]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Blueprint/Game_UI" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Blueprint/Game_UI.uasset" SILENT=true
+[2023.02.04-16.20.39:563][413]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Blueprint/Game_UI
+[2023.02.04-16.20.39:563][413]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/Game_UIB72095C44156F3C1A16DD79344D81886.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Blueprint/Game_UI.uasset'
+[2023.02.04-16.20.39:572][413]LogFileHelpers: InternalPromptForCheckoutAndSave took 164 ms (total: 15.1 sec)
+[2023.02.04-16.20.39:583][413]AssetCheck: New page: Asset Save: Game_UI
+[2023.02.04-16.20.39:583][413]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/KorzonkiOne/Blueprint/Game_UI.Game_UI
+[2023.02.04-16.20.39:852][427]BlueprintLog: New page: Compile Game_UI
+[2023.02.04-16.20.39:969][427]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2023.02.04-16.20.41:607][502]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.02.04-16.20.41:613][502]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.04-16.20.41:613][502]PIE: New page: PIE session: StartLevel (4 lut 2023, 18:20:41)
+[2023.02.04-16.20.41:613][502]LogPlayLevel: Creating play world package: /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel
+[2023.02.04-16.20.41:617][502]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003451s)
+[2023.02.04-16.20.41:617][502]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/KorzonkiOne/Levels/StartLevel.StartLevel to /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel.StartLevel (0.003484s)
+[2023.02.04-16.20.41:617][502]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.04-16.20.41:617][502]LogAIModule: Creating AISystem for world StartLevel
+[2023.02.04-16.20.41:618][502]LogPlayLevel: PIE: World Init took: (0.000829s)
+[2023.02.04-16.20.41:702][502]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2023.02.04-16.20.41:706][502]LogAudio: Display: Creating Audio Device:                 Id: 36, Scope: Unique, Realtime: True
+[2023.02.04-16.20.41:706][502]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.04-16.20.41:706][502]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.04-16.20.41:706][502]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.04-16.20.41:706][502]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.04-16.20.41:706][502]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.02.04-16.20.41:706][502]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.02.04-16.20.41:706][502]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.02.04-16.20.41:706][502]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.04-16.20.41:706][502]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.04-16.20.41:706][502]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.04-16.20.41:706][502]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.04-16.20.41:709][502]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.02.04-16.20.41:727][502]LogAudioMixer: Display: Using Audio Hardware Device Głośniki (Razer Kraken X USB)
+[2023.02.04-16.20.41:728][502]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.04-16.20.41:728][502]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.04-16.20.41:728][502]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.04-16.20.41:728][502]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=36
+[2023.02.04-16.20.41:728][502]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=36
+[2023.02.04-16.20.41:730][502]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=36
+[2023.02.04-16.20.41:730][502]LogInit: FAudioDevice initialized.
+[2023.02.04-16.20.41:730][502]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=36
+[2023.02.04-16.20.41:730][502]LogAudio: Display: Audio Device (ID: 36) registered with world 'StartLevel'.
+[2023.02.04-16.20.41:733][502]LogLoad: Game class is 'BP_KorzonkiGamemode_C'
+[2023.02.04-16.20.41:734][502]LogWorld: Bringing World /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel.StartLevel up for play (max tick rate 0) at 2023.02.04-17.20.41
+[2023.02.04-16.20.41:735][502]LogWorld: Bringing up level for play took: 0.001094
+[2023.02.04-16.20.41:737][502]LogOnline: OSS: Created online subsystem instance for: :Context_55
+[2023.02.04-16.20.41:740][502]PIE: Server logged in
+[2023.02.04-16.20.41:740][502]PIE: Play in editor total start time 0,128 seconds.
+[2023.02.04-16.20.47:533][851]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_CallDelegate', from offset 293
+[2023.02.04-16.20.47:533][851]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/KorzonkiOne/Core/ScoringZone.ScoringZone_C:BndEvt__ScoringZone_Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature
+	Function /Game/KorzonkiOne/Core/ScoringZone.ScoringZone_C:ExecuteUbergraph_ScoringZone
+	Function /Game/KorzonkiOne/Core/BP_KorzonkiGamestate.BP_KorzonkiGamestate_C:Score
+
+[2023.02.04-16.20.54:729][204]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_ComponentBoundEvent', from offset 0
+[2023.02.04-16.20.54:729][204]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/KorzonkiOne/Core/ScoringZone.ScoringZone_C:BndEvt__ScoringZone_Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature
+
+[2023.02.04-16.20.56:336][204]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_Score', from offset 67
+[2023.02.04-16.20.56:336][204]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/KorzonkiOne/Core/ScoringZone.ScoringZone_C:BndEvt__ScoringZone_Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature
+	Function /Game/KorzonkiOne/Core/ScoringZone.ScoringZone_C:ExecuteUbergraph_ScoringZone
+
+[2023.02.04-16.20.57:335][204]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_GetScore', from offset 188
+[2023.02.04-16.20.57:335][204]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/KorzonkiOne/Core/ScoringZone.ScoringZone_C:BndEvt__ScoringZone_Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature
+	Function /Game/KorzonkiOne/Core/ScoringZone.ScoringZone_C:ExecuteUbergraph_ScoringZone
+
+[2023.02.04-16.20.57:860][204]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_CallDelegate', from offset 293
+[2023.02.04-16.20.57:860][204]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/KorzonkiOne/Core/ScoringZone.ScoringZone_C:BndEvt__ScoringZone_Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature
+	Function /Game/KorzonkiOne/Core/ScoringZone.ScoringZone_C:ExecuteUbergraph_ScoringZone
+	Function /Game/KorzonkiOne/Core/BP_KorzonkiGamestate.BP_KorzonkiGamestate_C:Score
+
+[2023.02.04-16.21.06:176][739]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.04-16.21.06:176][739]LogWorld: BeginTearingDown for /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel
+[2023.02.04-16.21.06:176][739]LogWorld: UWorld::CleanupWorld for StartLevel, bSessionEnded=true, bCleanupResources=true
+[2023.02.04-16.21.06:176][739]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.04-16.21.06:194][739]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.04-16.21.06:201][739]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.04-16.21.06:279][739]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.02.04-16.21.06:280][739]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
+[2023.02.04-16.21.06:281][739]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
+[2023.02.04-16.21.06:285][739]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.04-16.21.06:288][739]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2023.02.04-16.21.06:355][740]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2023.02.04-16.21.17:209][294]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.21.17:310][294]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Blueprint/Game_UI" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Blueprint/Game_UI.uasset" SILENT=true
+[2023.02.04-16.21.17:319][294]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Blueprint/Game_UI
+[2023.02.04-16.21.17:320][294]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/Game_UI1C212A0C4B81365C347B77A888560974.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Blueprint/Game_UI.uasset'
+[2023.02.04-16.21.17:329][294]LogFileHelpers: InternalPromptForCheckoutAndSave took 119 ms (total: 15.2 sec)
+[2023.02.04-16.21.17:338][294]AssetCheck: New page: Asset Save: Game_UI
+[2023.02.04-16.21.17:338][294]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/KorzonkiOne/Blueprint/Game_UI.Game_UI
+[2023.02.04-16.22.25:765][ 52]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.22.25:848][ 52]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Blueprint/Game_UI" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Blueprint/Game_UI.uasset" SILENT=true
+[2023.02.04-16.22.25:855][ 52]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Blueprint/Game_UI
+[2023.02.04-16.22.25:856][ 52]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/Game_UIED4536AE43DD0542D2215080A912CB53.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Blueprint/Game_UI.uasset'
+[2023.02.04-16.22.25:864][ 52]LogFileHelpers: InternalPromptForCheckoutAndSave took 99 ms (total: 15.3 sec)
+[2023.02.04-16.22.25:876][ 52]AssetCheck: New page: Asset Save: Game_UI
+[2023.02.04-16.22.25:876][ 52]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/KorzonkiOne/Blueprint/Game_UI.Game_UI
+[2023.02.04-16.22.26:229][ 68]BlueprintLog: New page: Compile Game_UI
+[2023.02.04-16.22.26:338][ 68]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2023.02.04-16.22.32:129][431]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.02.04-16.22.32:135][431]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.04-16.22.32:136][431]PIE: New page: PIE session: StartLevel (4 lut 2023, 18:22:32)
+[2023.02.04-16.22.32:136][431]LogPlayLevel: Creating play world package: /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel
+[2023.02.04-16.22.32:138][431]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002990s)
+[2023.02.04-16.22.32:138][431]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/KorzonkiOne/Levels/StartLevel.StartLevel to /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel.StartLevel (0.003029s)
+[2023.02.04-16.22.32:139][431]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.04-16.22.32:139][431]LogAIModule: Creating AISystem for world StartLevel
+[2023.02.04-16.22.32:139][431]LogPlayLevel: PIE: World Init took: (0.000741s)
+[2023.02.04-16.22.32:213][431]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2023.02.04-16.22.32:217][431]LogAudio: Display: Creating Audio Device:                 Id: 37, Scope: Unique, Realtime: True
+[2023.02.04-16.22.32:217][431]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.04-16.22.32:217][431]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.04-16.22.32:217][431]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.04-16.22.32:217][431]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.04-16.22.32:217][431]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.02.04-16.22.32:217][431]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.02.04-16.22.32:217][431]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.02.04-16.22.32:217][431]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.04-16.22.32:218][431]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.04-16.22.32:218][431]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.04-16.22.32:218][431]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.04-16.22.32:220][431]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.02.04-16.22.32:236][431]LogAudioMixer: Display: Using Audio Hardware Device Głośniki (Razer Kraken X USB)
+[2023.02.04-16.22.32:236][431]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.04-16.22.32:236][431]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.04-16.22.32:236][431]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.04-16.22.32:237][431]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=37
+[2023.02.04-16.22.32:237][431]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=37
+[2023.02.04-16.22.32:238][431]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=37
+[2023.02.04-16.22.32:238][431]LogInit: FAudioDevice initialized.
+[2023.02.04-16.22.32:239][431]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=37
+[2023.02.04-16.22.32:239][431]LogAudio: Display: Audio Device (ID: 37) registered with world 'StartLevel'.
+[2023.02.04-16.22.32:241][431]LogLoad: Game class is 'BP_KorzonkiGamemode_C'
+[2023.02.04-16.22.32:242][431]LogWorld: Bringing World /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel.StartLevel up for play (max tick rate 0) at 2023.02.04-17.22.32
+[2023.02.04-16.22.32:242][431]LogWorld: Bringing up level for play took: 0.000931
+[2023.02.04-16.22.32:244][431]LogOnline: OSS: Created online subsystem instance for: :Context_56
+[2023.02.04-16.22.32:246][431]PIE: Server logged in
+[2023.02.04-16.22.32:247][431]PIE: Play in editor total start time 0,113 seconds.
+[2023.02.04-16.22.40:136][990]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.04-16.22.40:136][990]LogWorld: BeginTearingDown for /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel
+[2023.02.04-16.22.40:136][990]LogWorld: UWorld::CleanupWorld for StartLevel, bSessionEnded=true, bCleanupResources=true
+[2023.02.04-16.22.40:136][990]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.04-16.22.40:142][990]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.04-16.22.40:147][990]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.04-16.22.40:222][990]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.02.04-16.22.40:222][990]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
+[2023.02.04-16.22.40:224][990]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
+[2023.02.04-16.22.40:227][990]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.04-16.22.40:230][990]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2023.02.04-16.22.40:290][991]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2023.02.04-16.24.52:387][695]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.24.52:521][695]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Blueprint/Game_UI" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Blueprint/Game_UI.uasset" SILENT=true
+[2023.02.04-16.24.52:529][695]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Blueprint/Game_UI
+[2023.02.04-16.24.52:529][695]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/Game_UI279EAE684574053EE00220BEE81770C5.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Blueprint/Game_UI.uasset'
+[2023.02.04-16.24.52:538][695]LogFileHelpers: InternalPromptForCheckoutAndSave took 150 ms (total: 15.4 sec)
+[2023.02.04-16.24.52:547][695]AssetCheck: New page: Asset Save: Game_UI
+[2023.02.04-16.24.52:547][695]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/KorzonkiOne/Blueprint/Game_UI.Game_UI
+[2023.02.04-16.25.08:891][625]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.25.09:004][625]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Blueprint/Game_UI" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Blueprint/Game_UI.uasset" SILENT=true
+[2023.02.04-16.25.09:013][625]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Blueprint/Game_UI
+[2023.02.04-16.25.09:013][625]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/Game_UIB422876B4AE81345BA3E6294310F7419.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Blueprint/Game_UI.uasset'
+[2023.02.04-16.25.09:023][625]LogFileHelpers: InternalPromptForCheckoutAndSave took 132 ms (total: 15.6 sec)
+[2023.02.04-16.25.09:034][625]AssetCheck: New page: Asset Save: Game_UI
+[2023.02.04-16.25.09:034][625]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/KorzonkiOne/Blueprint/Game_UI.Game_UI
+[2023.02.04-16.25.09:344][637]BlueprintLog: New page: Compile Game_UI
+[2023.02.04-16.25.09:456][637]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2023.02.04-16.25.10:905][709]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.04-16.25.10:905][709]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.04-16.25.54:185][781]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.25.54:284][781]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Blueprint/Game_UI" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Blueprint/Game_UI.uasset" SILENT=true
+[2023.02.04-16.25.54:294][781]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Blueprint/Game_UI
+[2023.02.04-16.25.54:295][781]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/Game_UI28A780024383BDE2B29245B9F2556567.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Blueprint/Game_UI.uasset'
+[2023.02.04-16.25.54:305][781]LogFileHelpers: InternalPromptForCheckoutAndSave took 119 ms (total: 15.7 sec)
+[2023.02.04-16.25.54:319][781]AssetCheck: New page: Asset Save: Game_UI
+[2023.02.04-16.25.54:319][781]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/KorzonkiOne/Blueprint/Game_UI.Game_UI
+[2023.02.04-16.25.54:540][792]BlueprintLog: New page: Compile Game_UI
+[2023.02.04-16.25.54:545][792]LogBlueprint: Warning: [AssetLog] D:\GameJam\KorzonkiOne\Content\KorzonkiOne\Blueprint\Game_UI.uasset: [Compiler] Could not find a variable named "Score2" in 'Game_UI_C'.
+Make sure 'Game_UI_C' has been compiled for  Get Score2
+[2023.02.04-16.25.54:546][792]LogBlueprint: Error: [AssetLog] D:\GameJam\KorzonkiOne\Content\KorzonkiOne\Blueprint\Game_UI.uasset: [Compiler] The property associated with  Score 2  could not be found in '/Game/KorzonkiOne/Blueprint/Game_UI.Game_UI_C'
+[2023.02.04-16.25.54:659][792]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2023.02.04-16.26.17:255][ 77]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.04-16.26.17:255][ 77]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.04-16.26.25:755][548]LogEditorTransaction: Undo Straighten Connection(s)
+[2023.02.04-16.26.25:940][549]LogEditorTransaction: Undo Straighten Connection(s)
+[2023.02.04-16.26.26:133][552]LogEditorTransaction: Undo Move Node
+[2023.02.04-16.26.26:414][563]LogEditorTransaction: Undo Create Pin Link
+[2023.02.04-16.26.26:671][575]LogEditorTransaction: Undo Delete current selection
+[2023.02.04-16.26.26:918][586]LogEditorTransaction: Undo Move Node
+[2023.02.04-16.26.27:303][600]LogEditorTransaction: Undo Delete current selection
+[2023.02.04-16.26.27:510][605]LogEditorTransaction: Undo Move Anchor
+[2023.02.04-16.26.28:816][675]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.04-16.26.28:816][675]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.04-16.26.29:418][698]LogEditorTransaction: Undo Drag and Drop Widget
+[2023.02.04-16.26.29:651][702]LogEditorTransaction: Undo Changed Anchors
+[2023.02.04-16.26.29:838][705]LogEditorTransaction: Undo Edit Text
+[2023.02.04-16.26.30:003][708]LogEditorTransaction: Undo Remove Widget
+[2023.02.04-16.26.30:184][714]LogEditorTransaction: Undo Drag and Drop Widget
+[2023.02.04-16.26.32:740][828]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.26.32:844][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Blueprint/Game_UI" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Blueprint/Game_UI.uasset" SILENT=true
+[2023.02.04-16.26.32:854][828]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Blueprint/Game_UI
+[2023.02.04-16.26.32:855][828]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/Game_UI68DE4F5E47C2B4384375B2A74F11C3B6.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Blueprint/Game_UI.uasset'
+[2023.02.04-16.26.32:867][828]LogFileHelpers: InternalPromptForCheckoutAndSave took 126 ms (total: 15.8 sec)
+[2023.02.04-16.26.32:880][828]AssetCheck: New page: Asset Save: Game_UI
+[2023.02.04-16.26.32:880][828]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/KorzonkiOne/Blueprint/Game_UI.Game_UI
+[2023.02.04-16.26.33:211][839]BlueprintLog: New page: Compile Game_UI
+[2023.02.04-16.26.33:342][839]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2023.02.04-16.26.59:573][176]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/KorzonkiOne/Core/ScoringZone.ScoringZone without an associated node. The blueprint breakpoint has been removed
+[2023.02.04-16.26.59:573][176]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/KorzonkiOne/Core/ScoringZone.ScoringZone without an associated node. The blueprint breakpoint has been removed
+[2023.02.04-16.27.01:040][252]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/KorzonkiOne/Core/ScoringZone.ScoringZone without an associated node. The blueprint breakpoint has been removed
+[2023.02.04-16.27.01:040][252]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/KorzonkiOne/Core/ScoringZone.ScoringZone without an associated node. The blueprint breakpoint has been removed
+[2023.02.04-16.27.02:308][331]BlueprintLog: New page: Compile ScoringZone
+[2023.02.04-16.27.02:417][331]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2023.02.04-16.27.02:858][354]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.27.02:948][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Core/ScoringZone" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/ScoringZone.uasset" SILENT=true
+[2023.02.04-16.27.02:955][354]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Core/ScoringZone
+[2023.02.04-16.27.02:955][354]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/ScoringZone7B8CA1014E2C8EC095EC419DEEFFCCB5.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/ScoringZone.uasset'
+[2023.02.04-16.27.02:965][354]LogFileHelpers: InternalPromptForCheckoutAndSave took 107 ms (total: 15.9 sec)
+[2023.02.04-16.27.02:977][354]AssetCheck: New page: Asset Save: ScoringZone
+[2023.02.04-16.27.02:977][354]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/KorzonkiOne/Core/ScoringZone.ScoringZone
+[2023.02.04-16.28.01:625][245]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.28.01:732][245]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Core/BP_PlayerCharacter" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_PlayerCharacter.uasset" SILENT=true
+[2023.02.04-16.28.01:746][245]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Core/BP_PlayerCharacter
+[2023.02.04-16.28.01:747][245]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/BP_PlayerCharacter9BED362642271B9A295447B000D992CE.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_PlayerCharacter.uasset'
+[2023.02.04-16.28.01:757][245]LogFileHelpers: InternalPromptForCheckoutAndSave took 131 ms (total: 16.1 sec)
+[2023.02.04-16.28.01:768][245]AssetCheck: New page: Asset Save: BP_PlayerCharacter
+[2023.02.04-16.28.01:768][245]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/KorzonkiOne/Core/BP_PlayerCharacter.BP_PlayerCharacter
+[2023.02.04-16.28.02:020][260]BlueprintLog: New page: Compile BP_PlayerCharacter
+[2023.02.04-16.28.02:178][260]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2023.02.04-16.28.07:541][547]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.28.07:665][547]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Core/BP_PlayerCharacter" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_PlayerCharacter.uasset" SILENT=true
+[2023.02.04-16.28.07:679][547]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Core/BP_PlayerCharacter
+[2023.02.04-16.28.07:680][547]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/BP_PlayerCharacterEADAA1D44D7CEBD29577908FA32DA405.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_PlayerCharacter.uasset'
+[2023.02.04-16.28.07:691][547]LogFileHelpers: InternalPromptForCheckoutAndSave took 148 ms (total: 16.2 sec)
+[2023.02.04-16.28.07:703][547]AssetCheck: New page: Asset Save: BP_PlayerCharacter
+[2023.02.04-16.28.07:703][547]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/KorzonkiOne/Core/BP_PlayerCharacter.BP_PlayerCharacter
+[2023.02.04-16.28.07:973][558]BlueprintLog: New page: Compile BP_PlayerCharacter
+[2023.02.04-16.28.08:100][558]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2023.02.04-16.29.00:274][707]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.29.00:391][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Core/BP_PlayerCharacter" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_PlayerCharacter.uasset" SILENT=true
+[2023.02.04-16.29.00:407][707]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Core/BP_PlayerCharacter
+[2023.02.04-16.29.00:408][707]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/BP_PlayerCharacter41358D854A7E674827893393BD1D0B8E.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_PlayerCharacter.uasset'
+[2023.02.04-16.29.00:419][707]LogFileHelpers: InternalPromptForCheckoutAndSave took 144 ms (total: 16.3 sec)
+[2023.02.04-16.29.00:431][707]AssetCheck: New page: Asset Save: BP_PlayerCharacter
+[2023.02.04-16.29.00:431][707]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/KorzonkiOne/Core/BP_PlayerCharacter.BP_PlayerCharacter
+[2023.02.04-16.29.00:701][722]BlueprintLog: New page: Compile BP_PlayerCharacter
+[2023.02.04-16.29.00:836][722]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2023.02.04-16.29.16:473][627]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.29.16:623][627]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Core/BP_PlayerCharacter" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_PlayerCharacter.uasset" SILENT=true
+[2023.02.04-16.29.16:638][627]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Core/BP_PlayerCharacter
+[2023.02.04-16.29.16:639][627]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/BP_PlayerCharacter2AF11829442B2657456C46A154D8F3AF.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_PlayerCharacter.uasset'
+[2023.02.04-16.29.16:649][627]LogFileHelpers: InternalPromptForCheckoutAndSave took 176 ms (total: 16.5 sec)
+[2023.02.04-16.29.16:659][627]AssetCheck: New page: Asset Save: BP_PlayerCharacter
+[2023.02.04-16.29.16:659][627]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/KorzonkiOne/Core/BP_PlayerCharacter.BP_PlayerCharacter
+[2023.02.04-16.29.17:004][647]BlueprintLog: New page: Compile BP_PlayerCharacter
+[2023.02.04-16.29.17:142][647]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2023.02.04-16.29.17:567][667]BlueprintLog: New page: Compile BP_PlayerCharacter
+[2023.02.04-16.29.17:700][667]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2023.02.04-16.29.45:381][243]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2023.02.04-16.29.45:397][243]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/KorzonkiOne/Levels/StartLevel_Auto7
+[2023.02.04-16.29.45:397][243]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/StartLevel_Auto795158B464D28DE42E60AB3A573AA06DB.tmp' to '../../../../../../GameJam/KorzonkiOne/Saved/Autosaves/Game/KorzonkiOne/Levels/StartLevel_Auto7.umap'
+[2023.02.04-16.29.45:405][243]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/KorzonkiOne/Levels/StartLevel' took 0.105
+[2023.02.04-16.29.45:405][243]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.105
+[2023.02.04-16.29.59:204][ 12]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.29.59:365][ 12]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Core/BP_PlayerCharacter" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_PlayerCharacter.uasset" SILENT=true
+[2023.02.04-16.29.59:381][ 12]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Core/BP_PlayerCharacter
+[2023.02.04-16.29.59:382][ 12]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/BP_PlayerCharacter59CD6BF24B8F4965EEE01587CC733CC0.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_PlayerCharacter.uasset'
+[2023.02.04-16.29.59:392][ 12]LogFileHelpers: InternalPromptForCheckoutAndSave took 187 ms (total: 16.7 sec)
+[2023.02.04-16.29.59:401][ 12]AssetCheck: New page: Asset Save: BP_PlayerCharacter
+[2023.02.04-16.29.59:401][ 12]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/KorzonkiOne/Core/BP_PlayerCharacter.BP_PlayerCharacter
+[2023.02.04-16.29.59:545][ 21]BlueprintLog: New page: Compile BP_PlayerCharacter
+[2023.02.04-16.29.59:679][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2023.02.04-16.30.10:141][473]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.30.10:235][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Levels/StartLevel" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Levels/StartLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.02.04-16.30.10:317][473]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2023.02.04-16.30.10:333][473]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Levels/StartLevel
+[2023.02.04-16.30.10:333][473]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/StartLevelADFF1E5641DDD8883F15259D32E7C651.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Levels/StartLevel.umap'
+[2023.02.04-16.30.10:344][473]LogFileHelpers: Saving map 'StartLevel' took 0.109
+[2023.02.04-16.30.10:352][473]LogFileHelpers: InternalPromptForCheckoutAndSave took 210 ms (total: 16.9 sec)
+[2023.02.04-16.30.10:363][473]AssetCheck: New page: Asset Save: StartLevel
+[2023.02.04-16.30.10:363][473]LogContentValidation: Display: Validating /Script/Engine.World /Game/KorzonkiOne/Levels/StartLevel.StartLevel
+[2023.02.04-16.30.26:099][155]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.02.04-16.30.26:113][155]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.02.04-16.30.26:124][155]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.02.04-16.30.26:144][156]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.02.04-16.30.28:325][282]LogContentBrowser: Attempting asset rename: NewBlueprint -> Jail
+[2023.02.04-16.30.28:334][282]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.02.04-16.30.29:631][344]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/KorzonkiOne/Core/Jail.Jail_C
+[2023.02.04-16.30.29:631][344]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/KorzonkiOne/Core/Jail.Jail_C
+[2023.02.04-16.30.29:632][344]LogActorFactory: Actor Factory spawned Blueprint /Game/KorzonkiOne/Core/Jail.Jail as actor: Jail_C /Game/KorzonkiOne/Levels/StartLevel.StartLevel:PersistentLevel.Jail_C_0
+[2023.02.04-16.30.29:632][344]LogActorFactory: Actor Factory spawned Blueprint /Game/KorzonkiOne/Core/Jail.Jail as actor: Jail_C /Game/KorzonkiOne/Levels/StartLevel.StartLevel:PersistentLevel.Jail_C_0
+[2023.02.04-16.30.30:182][367]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/KorzonkiOne/Core/Jail.Jail_C
+[2023.02.04-16.30.30:182][367]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/KorzonkiOne/Core/Jail.Jail_C
+[2023.02.04-16.30.30:184][367]LogActorFactory: Actor Factory spawned Blueprint /Game/KorzonkiOne/Core/Jail.Jail as actor: Jail_C /Game/KorzonkiOne/Levels/StartLevel.StartLevel:PersistentLevel.Jail_C_1
+[2023.02.04-16.30.30:185][367]LogActorFactory: Actor Factory spawned Blueprint /Game/KorzonkiOne/Core/Jail.Jail as actor: Jail_C /Game/KorzonkiOne/Levels/StartLevel.StartLevel:PersistentLevel.Jail_C_1
+[2023.02.04-16.30.37:305][754]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.30.37:402][754]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Levels/StartLevel" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Levels/StartLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.02.04-16.30.37:484][754]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2023.02.04-16.30.37:502][754]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Levels/StartLevel
+[2023.02.04-16.30.37:502][754]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/StartLevelE56C354C419A06A7F321D1AB05B73BB3.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Levels/StartLevel.umap'
+[2023.02.04-16.30.37:512][754]LogFileHelpers: Saving map 'StartLevel' took 0.111
+[2023.02.04-16.30.37:521][754]LogFileHelpers: InternalPromptForCheckoutAndSave took 215 ms (total: 17.1 sec)
+[2023.02.04-16.30.37:530][754]AssetCheck: New page: Asset Save: StartLevel
+[2023.02.04-16.30.37:531][754]LogContentValidation: Display: Validating /Script/Engine.World /Game/KorzonkiOne/Levels/StartLevel.StartLevel
+[2023.02.04-16.30.40:404][917]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.30.40:500][917]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Levels/StartLevel" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Levels/StartLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.02.04-16.30.40:583][917]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2023.02.04-16.30.40:597][917]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Levels/StartLevel
+[2023.02.04-16.30.40:598][917]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/StartLevel30EB25914A27506EF90A2EB2AD6394B8.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Levels/StartLevel.umap'
+[2023.02.04-16.30.40:607][917]LogFileHelpers: Saving map 'StartLevel' took 0.108
+[2023.02.04-16.30.40:615][917]LogFileHelpers: InternalPromptForCheckoutAndSave took 211 ms (total: 17.4 sec)
+[2023.02.04-16.30.40:625][917]AssetCheck: New page: Asset Save: StartLevel
+[2023.02.04-16.30.40:625][917]LogContentValidation: Display: Validating /Script/Engine.World /Game/KorzonkiOne/Levels/StartLevel.StartLevel
+[2023.02.04-16.30.52:224][534]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.02.04-16.30.52:224][534]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.02.04-16.30.52:224][534]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.02.04-16.31.13:617][682]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.31.13:773][682]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Core/BP_PlayerCharacter" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_PlayerCharacter.uasset" SILENT=true
+[2023.02.04-16.31.13:792][682]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Core/BP_PlayerCharacter
+[2023.02.04-16.31.13:792][682]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/BP_PlayerCharacter6287353E4BD9E478AC7C84B689CEF63E.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_PlayerCharacter.uasset'
+[2023.02.04-16.31.13:804][682]LogFileHelpers: InternalPromptForCheckoutAndSave took 186 ms (total: 17.5 sec)
+[2023.02.04-16.31.13:818][682]AssetCheck: New page: Asset Save: BP_PlayerCharacter
+[2023.02.04-16.31.13:819][682]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/KorzonkiOne/Core/BP_PlayerCharacter.BP_PlayerCharacter
+[2023.02.04-16.31.14:181][703]BlueprintLog: New page: Compile BP_PlayerCharacter
+[2023.02.04-16.31.14:315][703]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2023.02.04-16.31.24:628][252]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.31.24:767][252]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Core/BP_PlayerCharacter" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_PlayerCharacter.uasset" SILENT=true
+[2023.02.04-16.31.24:785][252]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Core/BP_PlayerCharacter
+[2023.02.04-16.31.24:786][252]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/BP_PlayerCharacter8C417438426DA09B2E7293B07EF00155.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_PlayerCharacter.uasset'
+[2023.02.04-16.31.24:796][252]LogFileHelpers: InternalPromptForCheckoutAndSave took 168 ms (total: 17.7 sec)
+[2023.02.04-16.31.24:805][252]AssetCheck: New page: Asset Save: BP_PlayerCharacter
+[2023.02.04-16.31.24:806][252]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/KorzonkiOne/Core/BP_PlayerCharacter.BP_PlayerCharacter
+[2023.02.04-16.31.25:068][267]BlueprintLog: New page: Compile BP_PlayerCharacter
+[2023.02.04-16.31.25:211][267]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2023.02.04-16.31.25:703][290]BlueprintLog: New page: Compile BP_PlayerCharacter
+[2023.02.04-16.31.25:838][290]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2023.02.04-16.31.26:680][330]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.02.04-16.31.26:686][330]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.04-16.31.26:686][330]PIE: New page: PIE session: StartLevel (4 lut 2023, 18:31:26)
+[2023.02.04-16.31.26:687][330]LogPlayLevel: Creating play world package: /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel
+[2023.02.04-16.31.26:691][330]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004436s)
+[2023.02.04-16.31.26:691][330]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/KorzonkiOne/Levels/StartLevel.StartLevel to /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel.StartLevel (0.004484s)
+[2023.02.04-16.31.26:691][330]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.04-16.31.26:692][330]LogAIModule: Creating AISystem for world StartLevel
+[2023.02.04-16.31.26:692][330]LogPlayLevel: PIE: World Init took: (0.001344s)
+[2023.02.04-16.31.26:777][330]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2023.02.04-16.31.26:781][330]LogAudio: Display: Creating Audio Device:                 Id: 38, Scope: Unique, Realtime: True
+[2023.02.04-16.31.26:781][330]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.04-16.31.26:781][330]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.04-16.31.26:781][330]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.04-16.31.26:781][330]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.04-16.31.26:781][330]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.02.04-16.31.26:781][330]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.02.04-16.31.26:781][330]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.02.04-16.31.26:781][330]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.04-16.31.26:781][330]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.04-16.31.26:781][330]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.04-16.31.26:781][330]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.04-16.31.26:784][330]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.02.04-16.31.26:803][330]LogAudioMixer: Display: Using Audio Hardware Device Głośniki (Razer Kraken X USB)
+[2023.02.04-16.31.26:804][330]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.04-16.31.26:804][330]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.04-16.31.26:804][330]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.04-16.31.26:805][330]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=38
+[2023.02.04-16.31.26:805][330]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=38
+[2023.02.04-16.31.26:807][330]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=38
+[2023.02.04-16.31.26:807][330]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=38
+[2023.02.04-16.31.26:807][330]LogInit: FAudioDevice initialized.
+[2023.02.04-16.31.26:807][330]LogAudio: Display: Audio Device (ID: 38) registered with world 'StartLevel'.
+[2023.02.04-16.31.26:810][330]LogLoad: Game class is 'BP_KorzonkiGamemode_C'
+[2023.02.04-16.31.26:811][330]LogWorld: Bringing World /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel.StartLevel up for play (max tick rate 0) at 2023.02.04-17.31.26
+[2023.02.04-16.31.26:811][330]LogWorld: Bringing up level for play took: 0.001108
+[2023.02.04-16.31.26:813][330]LogOnline: OSS: Created online subsystem instance for: :Context_57
+[2023.02.04-16.31.26:816][330]PIE: Server logged in
+[2023.02.04-16.31.26:817][330]PIE: Play in editor total start time 0,131 seconds.
+[2023.02.04-16.31.31:739][650]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_CallDelegate', from offset 293
+[2023.02.04-16.31.31:739][650]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/KorzonkiOne/Core/ScoringZone.ScoringZone_C:BndEvt__ScoringZone_Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature
+	Function /Game/KorzonkiOne/Core/ScoringZone.ScoringZone_C:ExecuteUbergraph_ScoringZone
+	Function /Game/KorzonkiOne/Core/BP_KorzonkiGamestate.BP_KorzonkiGamestate_C:Score
+
+[2023.02.04-16.31.34:468][650]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/KorzonkiOne/Core/BP_KorzonkiGamestate.BP_KorzonkiGamestate without an associated node. The blueprint breakpoint has been removed
+[2023.02.04-16.31.34:468][650]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/KorzonkiOne/Core/BP_KorzonkiGamestate.BP_KorzonkiGamestate without an associated node. The blueprint breakpoint has been removed
+[2023.02.04-16.31.38:356][836]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.04-16.31.38:356][836]LogWorld: BeginTearingDown for /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel
+[2023.02.04-16.31.38:356][836]LogWorld: UWorld::CleanupWorld for StartLevel, bSessionEnded=true, bCleanupResources=true
+[2023.02.04-16.31.38:356][836]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.04-16.31.38:376][836]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.04-16.31.38:382][836]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.04-16.31.38:461][836]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.02.04-16.31.38:462][836]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38
+[2023.02.04-16.31.38:463][836]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38
+[2023.02.04-16.31.38:467][836]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.04-16.31.38:471][836]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2023.02.04-16.31.38:523][837]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2023.02.04-16.32.26:022][711]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.32.26:172][711]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Core/BP_PlayerCharacter" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_PlayerCharacter.uasset" SILENT=true
+[2023.02.04-16.32.26:186][711]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Core/BP_PlayerCharacter
+[2023.02.04-16.32.26:187][711]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/BP_PlayerCharacter6297BF6B4D199423947BFB815C9D7F70.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_PlayerCharacter.uasset'
+[2023.02.04-16.32.26:195][711]LogFileHelpers: InternalPromptForCheckoutAndSave took 172 ms (total: 17.9 sec)
+[2023.02.04-16.32.26:206][711]AssetCheck: New page: Asset Save: BP_PlayerCharacter
+[2023.02.04-16.32.26:206][711]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/KorzonkiOne/Core/BP_PlayerCharacter.BP_PlayerCharacter
+[2023.02.04-16.32.26:396][722]BlueprintLog: New page: Compile BP_PlayerCharacter
+[2023.02.04-16.32.26:512][722]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2023.02.04-16.32.50:768][ 13]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.32.50:904][ 13]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Core/BP_PlayerCharacter" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_PlayerCharacter.uasset" SILENT=true
+[2023.02.04-16.32.50:919][ 13]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Core/BP_PlayerCharacter
+[2023.02.04-16.32.50:920][ 13]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/BP_PlayerCharacter03EC3C84469FBBBDA1E5C595E958ACD6.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_PlayerCharacter.uasset'
+[2023.02.04-16.32.50:930][ 13]LogFileHelpers: InternalPromptForCheckoutAndSave took 161 ms (total: 18.0 sec)
+[2023.02.04-16.32.50:939][ 13]AssetCheck: New page: Asset Save: BP_PlayerCharacter
+[2023.02.04-16.32.50:939][ 13]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/KorzonkiOne/Core/BP_PlayerCharacter.BP_PlayerCharacter
+[2023.02.04-16.32.51:164][ 27]BlueprintLog: New page: Compile BP_PlayerCharacter
+[2023.02.04-16.32.51:294][ 27]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2023.02.04-16.32.58:221][410]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.32.58:374][410]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Core/BP_PlayerCharacter" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_PlayerCharacter.uasset" SILENT=true
+[2023.02.04-16.32.58:389][410]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Core/BP_PlayerCharacter
+[2023.02.04-16.32.58:389][410]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/BP_PlayerCharacter11E0947B45482EE46C08849BD7ECB1FB.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_PlayerCharacter.uasset'
+[2023.02.04-16.32.58:399][410]LogFileHelpers: InternalPromptForCheckoutAndSave took 176 ms (total: 18.2 sec)
+[2023.02.04-16.32.58:408][410]AssetCheck: New page: Asset Save: BP_PlayerCharacter
+[2023.02.04-16.32.58:408][410]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/KorzonkiOne/Core/BP_PlayerCharacter.BP_PlayerCharacter
+[2023.02.04-16.32.58:663][425]BlueprintLog: New page: Compile BP_PlayerCharacter
+[2023.02.04-16.32.58:795][425]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2023.02.04-16.32.59:398][452]BlueprintLog: New page: Compile BP_PlayerCharacter
+[2023.02.04-16.32.59:527][452]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2023.02.04-16.33.00:528][501]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.02.04-16.33.00:534][501]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.04-16.33.00:534][501]PIE: New page: PIE session: StartLevel (4 lut 2023, 18:33:00)
+[2023.02.04-16.33.00:534][501]LogPlayLevel: Creating play world package: /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel
+[2023.02.04-16.33.00:538][501]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004282s)
+[2023.02.04-16.33.00:538][501]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/KorzonkiOne/Levels/StartLevel.StartLevel to /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel.StartLevel (0.004344s)
+[2023.02.04-16.33.00:538][501]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.04-16.33.00:539][501]LogAIModule: Creating AISystem for world StartLevel
+[2023.02.04-16.33.00:539][501]LogPlayLevel: PIE: World Init took: (0.000790s)
+[2023.02.04-16.33.00:620][501]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2023.02.04-16.33.00:626][501]LogAudio: Display: Creating Audio Device:                 Id: 39, Scope: Unique, Realtime: True
+[2023.02.04-16.33.00:626][501]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.04-16.33.00:626][501]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.04-16.33.00:626][501]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.04-16.33.00:626][501]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.04-16.33.00:626][501]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.02.04-16.33.00:626][501]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.02.04-16.33.00:626][501]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.02.04-16.33.00:626][501]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.04-16.33.00:626][501]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.04-16.33.00:626][501]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.04-16.33.00:626][501]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.04-16.33.00:629][501]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.02.04-16.33.00:647][501]LogAudioMixer: Display: Using Audio Hardware Device Głośniki (Razer Kraken X USB)
+[2023.02.04-16.33.00:648][501]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.04-16.33.00:648][501]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.04-16.33.00:648][501]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.04-16.33.00:648][501]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=39
+[2023.02.04-16.33.00:648][501]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=39
+[2023.02.04-16.33.00:650][501]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=39
+[2023.02.04-16.33.00:650][501]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=39
+[2023.02.04-16.33.00:650][501]LogInit: FAudioDevice initialized.
+[2023.02.04-16.33.00:650][501]LogAudio: Display: Audio Device (ID: 39) registered with world 'StartLevel'.
+[2023.02.04-16.33.00:653][501]LogLoad: Game class is 'BP_KorzonkiGamemode_C'
+[2023.02.04-16.33.00:654][501]LogWorld: Bringing World /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel.StartLevel up for play (max tick rate 0) at 2023.02.04-17.33.00
+[2023.02.04-16.33.00:654][501]LogWorld: Bringing up level for play took: 0.001043
+[2023.02.04-16.33.00:656][501]LogOnline: OSS: Created online subsystem instance for: :Context_58
+[2023.02.04-16.33.00:659][501]PIE: Server logged in
+[2023.02.04-16.33.00:660][501]PIE: Play in editor total start time 0,126 seconds.
+[2023.02.04-16.33.10:396][ 84]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.04-16.33.10:396][ 84]LogWorld: BeginTearingDown for /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel
+[2023.02.04-16.33.10:396][ 84]LogWorld: UWorld::CleanupWorld for StartLevel, bSessionEnded=true, bCleanupResources=true
+[2023.02.04-16.33.10:397][ 84]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.04-16.33.10:402][ 84]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.04-16.33.10:408][ 84]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.04-16.33.10:487][ 84]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.02.04-16.33.10:488][ 84]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=39
+[2023.02.04-16.33.10:489][ 84]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=39
+[2023.02.04-16.33.10:495][ 84]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.04-16.33.10:498][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2023.02.04-16.33.10:532][ 85]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2023.02.04-16.35.20:994][ 73]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.35.21:154][ 73]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Core/BP_PlayerCharacter" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_PlayerCharacter.uasset" SILENT=true
+[2023.02.04-16.35.21:167][ 73]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Core/BP_PlayerCharacter
+[2023.02.04-16.35.21:168][ 73]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/BP_PlayerCharacter3B34DF67487C8C958E5116936E8CFCDD.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_PlayerCharacter.uasset'
+[2023.02.04-16.35.21:177][ 73]LogFileHelpers: InternalPromptForCheckoutAndSave took 182 ms (total: 18.4 sec)
+[2023.02.04-16.35.21:186][ 73]AssetCheck: New page: Asset Save: BP_PlayerCharacter
+[2023.02.04-16.35.21:186][ 73]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/KorzonkiOne/Core/BP_PlayerCharacter.BP_PlayerCharacter
+[2023.02.04-16.35.21:371][ 85]BlueprintLog: New page: Compile BP_PlayerCharacter
+[2023.02.04-16.35.21:491][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2023.02.04-16.36.04:644][392]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.36.04:795][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Core/BP_PlayerCharacter" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_PlayerCharacter.uasset" SILENT=true
+[2023.02.04-16.36.04:811][392]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Core/BP_PlayerCharacter
+[2023.02.04-16.36.04:811][392]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/BP_PlayerCharacter3B03BF004B0A1082D5BE57B46C32D930.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_PlayerCharacter.uasset'
+[2023.02.04-16.36.04:822][392]LogFileHelpers: InternalPromptForCheckoutAndSave took 177 ms (total: 18.6 sec)
+[2023.02.04-16.36.04:832][392]AssetCheck: New page: Asset Save: BP_PlayerCharacter
+[2023.02.04-16.36.04:833][392]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/KorzonkiOne/Core/BP_PlayerCharacter.BP_PlayerCharacter
+[2023.02.04-16.36.05:038][403]BlueprintLog: New page: Compile BP_PlayerCharacter
+[2023.02.04-16.36.05:052][403]LogBlueprint: Error: [AssetLog] D:\GameJam\KorzonkiOne\Content\KorzonkiOne\Core\BP_PlayerCharacter.uasset: [Compiler] Create Event  Signature Error: Unable to find the selected function/event: 'CustomEvent' - has it been deleted?
+[2023.02.04-16.36.05:171][403]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2023.02.04-16.36.18:695][100]BlueprintLog: New page: Compile BP_PlayerCharacter
+[2023.02.04-16.36.18:706][100]LogBlueprint: Error: [AssetLog] D:\GameJam\KorzonkiOne\Content\KorzonkiOne\Core\BP_PlayerCharacter.uasset: [Compiler] Create Event  Signature Error: Unable to find the selected function/event: 'CustomEvent' - has it been deleted?
+[2023.02.04-16.36.18:824][100]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2023.02.04-16.36.41:980][335]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.36.42:133][335]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Core/BP_PlayerCharacter" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_PlayerCharacter.uasset" SILENT=true
+[2023.02.04-16.36.42:148][335]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Core/BP_PlayerCharacter
+[2023.02.04-16.36.42:148][335]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/BP_PlayerCharacter7FA557E24025FD7FE2E488A98A0D2DDB.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_PlayerCharacter.uasset'
+[2023.02.04-16.36.42:159][335]LogFileHelpers: InternalPromptForCheckoutAndSave took 178 ms (total: 18.8 sec)
+[2023.02.04-16.36.42:171][335]AssetCheck: New page: Asset Save: BP_PlayerCharacter
+[2023.02.04-16.36.42:171][335]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/KorzonkiOne/Core/BP_PlayerCharacter.BP_PlayerCharacter
+[2023.02.04-16.36.42:397][347]BlueprintLog: New page: Compile BP_PlayerCharacter
+[2023.02.04-16.36.42:412][347]LogBlueprint: Error: [AssetLog] D:\GameJam\KorzonkiOne\Content\KorzonkiOne\Core\BP_PlayerCharacter.uasset: [Compiler] Create Event  Signature Error: Unable to find the selected function/event: 'CustomEvent' - has it been deleted?
+[2023.02.04-16.36.42:537][347]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2023.02.04-16.36.57:062][109]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.36.57:231][109]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Core/BP_PlayerCharacter" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_PlayerCharacter.uasset" SILENT=true
+[2023.02.04-16.36.57:247][109]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Core/BP_PlayerCharacter
+[2023.02.04-16.36.57:248][109]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/BP_PlayerCharacter8663337848C1C25342A80CAB5D365F23.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_PlayerCharacter.uasset'
+[2023.02.04-16.36.57:257][109]LogFileHelpers: InternalPromptForCheckoutAndSave took 195 ms (total: 19.0 sec)
+[2023.02.04-16.36.57:267][109]AssetCheck: New page: Asset Save: BP_PlayerCharacter
+[2023.02.04-16.36.57:267][109]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/KorzonkiOne/Core/BP_PlayerCharacter.BP_PlayerCharacter
+[2023.02.04-16.36.57:419][118]BlueprintLog: New page: Compile BP_PlayerCharacter
+[2023.02.04-16.36.57:557][118]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2023.02.04-16.37.15:826][ 70]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.37.15:953][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Core/BP_PlayerCharacter" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_PlayerCharacter.uasset" SILENT=true
+[2023.02.04-16.37.15:970][ 70]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Core/BP_PlayerCharacter
+[2023.02.04-16.37.15:970][ 70]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/BP_PlayerCharacter8DDEB5E342DD66301AC91ABD639BB0A8.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_PlayerCharacter.uasset'
+[2023.02.04-16.37.15:981][ 70]LogFileHelpers: InternalPromptForCheckoutAndSave took 154 ms (total: 19.1 sec)
+[2023.02.04-16.37.15:992][ 70]AssetCheck: New page: Asset Save: BP_PlayerCharacter
+[2023.02.04-16.37.15:992][ 70]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/KorzonkiOne/Core/BP_PlayerCharacter.BP_PlayerCharacter
+[2023.02.04-16.37.16:242][ 84]BlueprintLog: New page: Compile BP_PlayerCharacter
+[2023.02.04-16.37.16:381][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2023.02.04-16.37.27:188][654]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.37.27:333][654]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Core/BP_PlayerCharacter" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_PlayerCharacter.uasset" SILENT=true
+[2023.02.04-16.37.27:350][654]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Core/BP_PlayerCharacter
+[2023.02.04-16.37.27:350][654]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/BP_PlayerCharacter77375F9B4BCCDBB9AC14F7B9068E97C5.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_PlayerCharacter.uasset'
+[2023.02.04-16.37.27:360][654]LogFileHelpers: InternalPromptForCheckoutAndSave took 171 ms (total: 19.3 sec)
+[2023.02.04-16.37.27:368][654]AssetCheck: New page: Asset Save: BP_PlayerCharacter
+[2023.02.04-16.37.27:369][654]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/KorzonkiOne/Core/BP_PlayerCharacter.BP_PlayerCharacter
+[2023.02.04-16.37.27:649][671]BlueprintLog: New page: Compile BP_PlayerCharacter
+[2023.02.04-16.37.27:789][671]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2023.02.04-16.37.38:664][275]LogDerivedDataCache: C:/Users/bkuch/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:01:19.052 and deleted 0 files with total size 0 MiB. Scanned 50541 files in 29530 folders with total size 9618 MiB.
+[2023.02.04-16.37.54:060][134]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.37.54:216][134]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Core/BP_PlayerCharacter" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_PlayerCharacter.uasset" SILENT=true
+[2023.02.04-16.37.54:232][134]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Core/BP_PlayerCharacter
+[2023.02.04-16.37.54:233][134]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/BP_PlayerCharacter4B0101BC4D2DB7A6DDE0E7B23A5D413A.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_PlayerCharacter.uasset'
+[2023.02.04-16.37.54:242][134]LogFileHelpers: InternalPromptForCheckoutAndSave took 182 ms (total: 19.5 sec)
+[2023.02.04-16.37.54:253][134]AssetCheck: New page: Asset Save: BP_PlayerCharacter
+[2023.02.04-16.37.54:253][134]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/KorzonkiOne/Core/BP_PlayerCharacter.BP_PlayerCharacter
+[2023.02.04-16.37.54:469][147]BlueprintLog: New page: Compile BP_PlayerCharacter
+[2023.02.04-16.37.54:603][147]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2023.02.04-16.38.17:686][406]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.02.04-16.38.17:687][406]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.02.04-16.38.17:687][406]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.02.04-16.38.56:792][468]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.38.56:938][468]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Core/BP_PlayerCharacter" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_PlayerCharacter.uasset" SILENT=true
+[2023.02.04-16.38.56:955][468]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Core/BP_PlayerCharacter
+[2023.02.04-16.38.56:956][468]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/BP_PlayerCharacterEDDEF01747E9429216109299CD096D97.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_PlayerCharacter.uasset'
+[2023.02.04-16.38.56:966][468]LogFileHelpers: InternalPromptForCheckoutAndSave took 173 ms (total: 19.6 sec)
+[2023.02.04-16.38.56:977][468]AssetCheck: New page: Asset Save: BP_PlayerCharacter
+[2023.02.04-16.38.56:977][468]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/KorzonkiOne/Core/BP_PlayerCharacter.BP_PlayerCharacter
+[2023.02.04-16.38.57:241][483]BlueprintLog: New page: Compile BP_PlayerCharacter
+[2023.02.04-16.38.57:382][483]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2023.02.04-16.39.26:412][933]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.39.26:549][933]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Core/BP_PlayerCharacter" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_PlayerCharacter.uasset" SILENT=true
+[2023.02.04-16.39.26:568][933]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Core/BP_PlayerCharacter
+[2023.02.04-16.39.26:568][933]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/BP_PlayerCharacter8E8A38EB4E29F4FE35B44CAA2B174B93.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_PlayerCharacter.uasset'
+[2023.02.04-16.39.26:579][933]LogFileHelpers: InternalPromptForCheckoutAndSave took 165 ms (total: 19.8 sec)
+[2023.02.04-16.39.26:592][933]AssetCheck: New page: Asset Save: BP_PlayerCharacter
+[2023.02.04-16.39.26:592][933]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/KorzonkiOne/Core/BP_PlayerCharacter.BP_PlayerCharacter
+[2023.02.04-16.39.26:911][951]BlueprintLog: New page: Compile BP_PlayerCharacter
+[2023.02.04-16.39.27:045][951]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2023.02.04-16.39.28:283][ 15]BlueprintLog: New page: Compile BP_PlayerCharacter
+[2023.02.04-16.39.28:419][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2023.02.04-16.39.29:826][ 85]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.02.04-16.39.29:832][ 85]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.04-16.39.29:832][ 85]PIE: New page: PIE session: StartLevel (4 lut 2023, 18:39:29)
+[2023.02.04-16.39.29:832][ 85]LogPlayLevel: Creating play world package: /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel
+[2023.02.04-16.39.29:836][ 85]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003847s)
+[2023.02.04-16.39.29:836][ 85]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/KorzonkiOne/Levels/StartLevel.StartLevel to /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel.StartLevel (0.003882s)
+[2023.02.04-16.39.29:836][ 85]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.04-16.39.29:836][ 85]LogAIModule: Creating AISystem for world StartLevel
+[2023.02.04-16.39.29:837][ 85]LogPlayLevel: PIE: World Init took: (0.000870s)
+[2023.02.04-16.39.29:917][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2023.02.04-16.39.29:921][ 85]LogAudio: Display: Creating Audio Device:                 Id: 40, Scope: Unique, Realtime: True
+[2023.02.04-16.39.29:921][ 85]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.04-16.39.29:922][ 85]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.04-16.39.29:922][ 85]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.04-16.39.29:922][ 85]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.04-16.39.29:922][ 85]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.02.04-16.39.29:922][ 85]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.02.04-16.39.29:922][ 85]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.02.04-16.39.29:922][ 85]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.04-16.39.29:922][ 85]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.04-16.39.29:922][ 85]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.04-16.39.29:922][ 85]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.04-16.39.29:925][ 85]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.02.04-16.39.29:944][ 85]LogAudioMixer: Display: Using Audio Hardware Device Głośniki (Razer Kraken X USB)
+[2023.02.04-16.39.29:944][ 85]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.04-16.39.29:944][ 85]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.04-16.39.29:944][ 85]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.04-16.39.29:945][ 85]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=40
+[2023.02.04-16.39.29:945][ 85]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=40
+[2023.02.04-16.39.29:947][ 85]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=40
+[2023.02.04-16.39.29:947][ 85]LogInit: FAudioDevice initialized.
+[2023.02.04-16.39.29:947][ 85]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=40
+[2023.02.04-16.39.29:947][ 85]LogAudio: Display: Audio Device (ID: 40) registered with world 'StartLevel'.
+[2023.02.04-16.39.29:950][ 85]LogLoad: Game class is 'BP_KorzonkiGamemode_C'
+[2023.02.04-16.39.29:951][ 85]LogWorld: Bringing World /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel.StartLevel up for play (max tick rate 0) at 2023.02.04-17.39.29
+[2023.02.04-16.39.29:951][ 85]LogWorld: Bringing up level for play took: 0.001067
+[2023.02.04-16.39.29:954][ 85]LogOnline: OSS: Created online subsystem instance for: :Context_59
+[2023.02.04-16.39.29:956][ 85]PIE: Server logged in
+[2023.02.04-16.39.29:957][ 85]PIE: Play in editor total start time 0,125 seconds.
+[2023.02.04-16.39.41:106][808]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.04-16.39.41:106][808]LogWorld: BeginTearingDown for /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel
+[2023.02.04-16.39.41:106][808]LogWorld: UWorld::CleanupWorld for StartLevel, bSessionEnded=true, bCleanupResources=true
+[2023.02.04-16.39.41:106][808]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.04-16.39.41:112][808]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.04-16.39.41:118][808]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.04-16.39.41:195][808]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.02.04-16.39.41:196][808]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=40
+[2023.02.04-16.39.41:197][808]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=40
+[2023.02.04-16.39.41:201][808]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.04-16.39.41:205][808]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2023.02.04-16.39.41:270][809]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2023.02.04-16.39.56:118][550]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.39.56:281][550]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Core/BP_PlayerCharacter" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_PlayerCharacter.uasset" SILENT=true
+[2023.02.04-16.39.56:301][550]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Core/BP_PlayerCharacter
+[2023.02.04-16.39.56:302][550]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/BP_PlayerCharacterE555A3E4469FF348CBCD38B1F8038E28.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_PlayerCharacter.uasset'
+[2023.02.04-16.39.56:313][550]LogFileHelpers: InternalPromptForCheckoutAndSave took 195 ms (total: 20.0 sec)
+[2023.02.04-16.39.56:326][550]AssetCheck: New page: Asset Save: BP_PlayerCharacter
+[2023.02.04-16.39.56:326][550]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/KorzonkiOne/Core/BP_PlayerCharacter.BP_PlayerCharacter
+[2023.02.04-16.39.56:524][561]BlueprintLog: New page: Compile BP_PlayerCharacter
+[2023.02.04-16.39.56:659][561]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2023.02.04-16.39.59:923][713]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.02.04-16.39.59:928][713]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.04-16.39.59:928][713]PIE: New page: PIE session: StartLevel (4 lut 2023, 18:39:59)
+[2023.02.04-16.39.59:929][713]LogPlayLevel: Creating play world package: /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel
+[2023.02.04-16.39.59:933][713]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004312s)
+[2023.02.04-16.39.59:933][713]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/KorzonkiOne/Levels/StartLevel.StartLevel to /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel.StartLevel (0.004350s)
+[2023.02.04-16.39.59:933][713]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.04-16.39.59:934][713]LogAIModule: Creating AISystem for world StartLevel
+[2023.02.04-16.39.59:934][713]LogPlayLevel: PIE: World Init took: (0.000836s)
+[2023.02.04-16.40.00:017][713]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2023.02.04-16.40.00:023][713]LogAudio: Display: Creating Audio Device:                 Id: 41, Scope: Unique, Realtime: True
+[2023.02.04-16.40.00:023][713]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.04-16.40.00:023][713]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.04-16.40.00:023][713]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.04-16.40.00:023][713]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.04-16.40.00:023][713]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.02.04-16.40.00:023][713]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.02.04-16.40.00:023][713]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.02.04-16.40.00:023][713]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.04-16.40.00:024][713]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.04-16.40.00:024][713]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.04-16.40.00:024][713]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.04-16.40.00:026][713]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.02.04-16.40.00:045][713]LogAudioMixer: Display: Using Audio Hardware Device Głośniki (Razer Kraken X USB)
+[2023.02.04-16.40.00:046][713]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.04-16.40.00:046][713]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.04-16.40.00:046][713]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.04-16.40.00:048][713]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=41
+[2023.02.04-16.40.00:048][713]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=41
+[2023.02.04-16.40.00:049][713]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=41
+[2023.02.04-16.40.00:049][713]LogInit: FAudioDevice initialized.
+[2023.02.04-16.40.00:049][713]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=41
+[2023.02.04-16.40.00:049][713]LogAudio: Display: Audio Device (ID: 41) registered with world 'StartLevel'.
+[2023.02.04-16.40.00:052][713]LogLoad: Game class is 'BP_KorzonkiGamemode_C'
+[2023.02.04-16.40.00:053][713]LogWorld: Bringing World /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel.StartLevel up for play (max tick rate 0) at 2023.02.04-17.40.00
+[2023.02.04-16.40.00:054][713]LogWorld: Bringing up level for play took: 0.001177
+[2023.02.04-16.40.00:056][713]LogOnline: OSS: Created online subsystem instance for: :Context_60
+[2023.02.04-16.40.00:059][713]PIE: Server logged in
+[2023.02.04-16.40.00:060][713]PIE: Play in editor total start time 0,132 seconds.
+[2023.02.04-16.40.11:355][439]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.04-16.40.11:355][439]LogWorld: BeginTearingDown for /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel
+[2023.02.04-16.40.11:355][439]LogWorld: UWorld::CleanupWorld for StartLevel, bSessionEnded=true, bCleanupResources=true
+[2023.02.04-16.40.11:355][439]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.04-16.40.11:361][439]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.04-16.40.11:368][439]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.04-16.40.11:445][439]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.02.04-16.40.11:445][439]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=41
+[2023.02.04-16.40.11:447][439]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=41
+[2023.02.04-16.40.11:451][439]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.04-16.40.11:454][439]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2023.02.04-16.40.11:517][440]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2023.02.04-16.40.14:650][618]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.40.14:745][618]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Levels/StartLevel" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Levels/StartLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.02.04-16.40.14:827][618]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2023.02.04-16.40.14:841][618]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Levels/StartLevel
+[2023.02.04-16.40.14:842][618]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/StartLevel9338A7D24602AEFDC33605BE92A86985.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Levels/StartLevel.umap'
+[2023.02.04-16.40.14:852][618]LogFileHelpers: Saving map 'StartLevel' took 0.107
+[2023.02.04-16.40.14:861][618]LogFileHelpers: InternalPromptForCheckoutAndSave took 211 ms (total: 20.2 sec)
+[2023.02.04-16.40.14:870][618]AssetCheck: New page: Asset Save: StartLevel
+[2023.02.04-16.40.14:871][618]LogContentValidation: Display: Validating /Script/Engine.World /Game/KorzonkiOne/Levels/StartLevel.StartLevel
+[2023.02.04-16.40.18:494][810]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.40.18:589][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Levels/StartLevel" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Levels/StartLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.02.04-16.40.18:669][810]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2023.02.04-16.40.18:683][810]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Levels/StartLevel
+[2023.02.04-16.40.18:684][810]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/StartLevel2F9629FC4A36EF6FF8987F8D12679ECD.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Levels/StartLevel.umap'
+[2023.02.04-16.40.18:693][810]LogFileHelpers: Saving map 'StartLevel' took 0.104
+[2023.02.04-16.40.18:702][810]LogFileHelpers: InternalPromptForCheckoutAndSave took 208 ms (total: 20.4 sec)
+[2023.02.04-16.40.18:711][810]AssetCheck: New page: Asset Save: StartLevel
+[2023.02.04-16.40.18:711][810]LogContentValidation: Display: Validating /Script/Engine.World /Game/KorzonkiOne/Levels/StartLevel.StartLevel
+[2023.02.04-16.40.21:671][958]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.40.21:815][958]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Core/BP_PlayerCharacter" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_PlayerCharacter.uasset" SILENT=true
+[2023.02.04-16.40.21:833][958]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Core/BP_PlayerCharacter
+[2023.02.04-16.40.21:834][958]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/BP_PlayerCharacterFC292CC44073D9652CE4DD9E0997E0C3.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_PlayerCharacter.uasset'
+[2023.02.04-16.40.21:843][958]LogFileHelpers: InternalPromptForCheckoutAndSave took 171 ms (total: 20.6 sec)
+[2023.02.04-16.40.21:852][958]AssetCheck: New page: Asset Save: BP_PlayerCharacter
+[2023.02.04-16.40.21:852][958]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/KorzonkiOne/Core/BP_PlayerCharacter.BP_PlayerCharacter
+[2023.02.04-16.40.22:090][971]BlueprintLog: New page: Compile BP_PlayerCharacter
+[2023.02.04-16.40.22:224][971]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2023.02.04-16.40.23:531][ 30]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/KorzonkiOne/Core/Jail.Jail
+[2023.02.04-16.40.23:532][ 30]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.04-16.40.24:166][ 30]LogViewport: Scene viewport resized to 1141x693, mode Windowed.
+[2023.02.04-16.40.25:595][ 94]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.40.25:720][ 94]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Core/Jail" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/Jail.uasset" SILENT=true
+[2023.02.04-16.40.25:723][ 94]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Core/Jail
+[2023.02.04-16.40.25:723][ 94]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/JailBE1717EF4775113DDEADFB8F3257FE00.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/Jail.uasset'
+[2023.02.04-16.40.25:733][ 94]LogFileHelpers: InternalPromptForCheckoutAndSave took 137 ms (total: 20.7 sec)
+[2023.02.04-16.40.25:742][ 94]AssetCheck: New page: Asset Save: Jail
+[2023.02.04-16.40.25:742][ 94]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/KorzonkiOne/Core/Jail.Jail
+[2023.02.04-16.40.25:973][105]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.04-16.40.26:131][105]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Core/Jail" FILE="../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/Jail.uasset" SILENT=true
+[2023.02.04-16.40.26:134][105]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Core/Jail
+[2023.02.04-16.40.26:134][105]LogSavePackage: Moving '../../../../../../GameJam/KorzonkiOne/Saved/Jail1353AB354593736C406F0299205CE10F.tmp' to '../../../../../../GameJam/KorzonkiOne/Content/KorzonkiOne/Core/Jail.uasset'
+[2023.02.04-16.40.26:143][105]LogFileHelpers: InternalPromptForCheckoutAndSave took 169 ms (total: 20.9 sec)
+[2023.02.04-16.40.26:151][105]AssetCheck: New page: Asset Save: Jail
+[2023.02.04-16.40.26:151][105]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/KorzonkiOne/Core/Jail.Jail
+[2023.02.04-16.40.26:336][115]BlueprintLog: New page: Compile Jail
+[2023.02.04-16.40.26:476][115]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
