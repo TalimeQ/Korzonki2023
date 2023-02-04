@@ -5,6 +5,21 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"D:/GameJam/KorzonkiOne/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"D:/GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_KorzonkiGamemode.uasset",
+				"D:/GameJam/KorzonkiOne/Content/KorzonkiOne/Levels/StartLevel.umap",
+				"D:/GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_CameraPawn.uasset",
+				"D:/GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_KorzonkiGamestate.uasset",
+				"D:/GameJam/KorzonkiOne/Content/KorzonkiOne/Core/ScoringZone.uasset",
+				"D:/GameJam/KorzonkiOne/Content/KorzonkiOne/Core/Interfaces/Scorable.uasset",
+				"D:/GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_PlayerCharacter.uasset",
+				"D:/GameJam/KorzonkiOne/Content/KorzonkiOne/Core/Pickups/BP_PickupBase.uasset",
+				"D:/GameJam/KorzonkiOne/Content/BP_PlayerSpawnBase.uasset",
+				"D:/GameJam/KorzonkiOne/Content/BP_Player2_Spawn.uasset",
+				"D:/GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_KorzonkiController.uasset",
+				"D:/GameJam/KorzonkiOne/Content/BP_PlayerSpawn.uasset",
+				"D:/GameJam/KorzonkiOne/Content/ThirdPerson/Input/IMC_Default2.uasset",
+				"D:/GameJam/KorzonkiOne/Content/KorzonkiOne/Blueprint/Game_UI.uasset",
 				"E:/lubjam/Korzonki2023/Content/KorzonkiOne/Levels/StartLevel.umap",
 				"E:/lubjam/Korzonki2023/Content/KorzonkiOne/Core/BP_CameraPawn.uasset",
 				"E:/lubjam/Korzonki2023/Content/KorzonkiOne/Core/bp_first_actor.uasset",
@@ -155,12 +170,7 @@
 				"D:/GameJam/KorzonkiOne/Content/Characters/Mannequins/Animations/Manny/MM_Jump.uasset",
 				"D:/GameJam/KorzonkiOne/Content/Characters/Mannequins/Animations/Manny/MM_Land.uasset",
 				"D:/GameJam/KorzonkiOne/Content/Characters/Mannequins/Animations/Manny/MM_Run_Fwd.uasset",
-				"D:/GameJam/KorzonkiOne/Content/Characters/Mannequins/Animations/Manny/MM_Walk_Fwd.uasset",
-				"D:/GameJam/KorzonkiOne/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
-				"D:/GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_KorzonkiGamemode.uasset",
-				"D:/GameJam/KorzonkiOne/Content/KorzonkiOne/Levels/StartLevel.umap",
-				"D:/GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_CameraPawn.uasset",
-				"D:/GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_KorzonkiGamestate.uasset"
+				"D:/GameJam/KorzonkiOne/Content/Characters/Mannequins/Animations/Manny/MM_Walk_Fwd.uasset"
 			]
 		}
 	]
