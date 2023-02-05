@@ -26,6 +26,8 @@
 				"E:/lubjam/Korzonki2023/Content/KorzonkiOne/Music/up.uasset",
 				"E:/lubjam/Korzonki2023/Content/KorzonkiOne/Music/zip.uasset",
 				"E:/lubjam/Korzonki2023/Content/KorzonkiOne/Core/ProjectileBase.uasset",
+				"E:/lubjam/Korzonki2023/Content/KorzonkiOne/Core/Pickups/BP_PickupBase.uasset",
+				"E:/lubjam/Korzonki2023/Content/KorzonkiOne/Core/BP_PlayerCharacter.uasset",
 				"D:/GameJam/KorzonkiOne/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
 				"D:/GameJam/KorzonkiOne/Content/KorzonkiOne/Core/BP_KorzonkiGamemode.uasset",
 				"D:/GameJam/KorzonkiOne/Content/KorzonkiOne/Levels/StartLevel.umap",
