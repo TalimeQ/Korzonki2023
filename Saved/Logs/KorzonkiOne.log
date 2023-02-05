@@ -1291,3 +1291,75 @@ Make sure 'BP_PlayerCharacter_C' has been compiled for  Get Cube
 [2023.02.05-10.24.28:964][ 84]LogFileHelpers: InternalPromptForCheckoutAndSave took 173 ms (total: 587 ms)
 [2023.02.05-10.24.28:969][ 84]AssetCheck: New page: Asset Save: StartLevel
 [2023.02.05-10.24.28:969][ 84]LogContentValidation: Display: Validating /Script/Engine.World /Game/KorzonkiOne/Levels/StartLevel.StartLevel
+[2023.02.05-10.34.52:214][201]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.02.05-10.34.54:383][306]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.02.05-10.34.56:510][438]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.02.05-10.34.58:525][598]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.02.05-10.35.00:544][691]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.02.05-10.35.03:386][812]LogShaderCompilers: Display: ================================================
+[2023.02.05-10.35.03:386][812]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.02.05-10.35.03:386][812]LogShaderCompilers: Display: Total job queries 130, among them cache hits 23 (17.69%)
+[2023.02.05-10.35.03:386][812]LogShaderCompilers: Display: Tracking 107 distinct input hashes that result in 85 distinct outputs (79.44%)
+[2023.02.05-10.35.03:386][812]LogShaderCompilers: Display: RAM used: 0.89 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.11%
+[2023.02.05-10.35.03:386][812]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.02.05-10.35.03:386][812]LogShaderCompilers: Display: Shaders Compiled: 8
+[2023.02.05-10.35.03:386][812]LogShaderCompilers: Display: Jobs assigned 8, completed 8 (100.00%)
+[2023.02.05-10.35.03:386][812]LogShaderCompilers: Display: Average time worker was idle: 254.93 s
+[2023.02.05-10.35.03:386][812]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.12 s
+[2023.02.05-10.35.03:386][812]LogShaderCompilers: Display: Job execution time: average 1.32 s, max 1.68 s
+[2023.02.05-10.35.03:386][812]LogShaderCompilers: Display: Job life time (pending + execution): average 1.38 s, max 1.73
+[2023.02.05-10.35.03:386][812]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.18 s
+[2023.02.05-10.35.03:386][812]LogShaderCompilers: Display: Jobs were issued in 8 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.02.05-10.35.03:386][812]LogShaderCompilers: Display: Average processing rate: 2.51 jobs/sec
+[2023.02.05-10.35.03:386][812]LogShaderCompilers: Display: Total thread time: 7.66 s
+[2023.02.05-10.35.03:386][812]LogShaderCompilers: Display: Total thread preprocess time: 0.52 s
+[2023.02.05-10.35.03:386][812]LogShaderCompilers: Display: Percentage time preprocessing: 6.81%
+[2023.02.05-10.35.03:386][812]LogShaderCompilers: Display: Effective parallelization: 2.41 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.02.05-10.35.03:386][812]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.02.05-10.35.03:386][812]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 1.12 sec, max 1.25 sec, min 1.00 sec)
+[2023.02.05-10.35.03:386][812]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    2 times, average 1.01 sec, max 1.02 sec, min 1.01 sec)
+[2023.02.05-10.35.03:386][812]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    1 times, average 0.94 sec, max 0.94 sec, min 0.94 sec)
+[2023.02.05-10.35.03:386][812]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.94 sec, max 0.94 sec, min 0.94 sec)
+[2023.02.05-10.35.03:386][812]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.81 sec, max 0.81 sec, min 0.81 sec)
+[2023.02.05-10.35.03:386][812]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.02.05-10.35.03:386][812]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 29.35% of total time (compiled    2 times, average 1.12 sec, max 1.25 sec, min 1.00 sec)
+[2023.02.05-10.35.03:386][812]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 26.43% of total time (compiled    2 times, average 1.01 sec, max 1.02 sec, min 1.01 sec)
+[2023.02.05-10.35.03:386][812]LogShaderCompilers: Display:                                                  FHitProxyVS - 12.24% of total time (compiled    1 times, average 0.94 sec, max 0.94 sec, min 0.94 sec)
+[2023.02.05-10.35.03:386][812]LogShaderCompilers: Display:                                                 FLumenCardVS - 12.23% of total time (compiled    1 times, average 0.94 sec, max 0.94 sec, min 0.94 sec)
+[2023.02.05-10.35.03:386][812]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 10.52% of total time (compiled    1 times, average 0.81 sec, max 0.81 sec, min 0.81 sec)
+[2023.02.05-10.35.03:386][812]LogShaderCompilers: Display: ================================================
+[2023.02.05-10.35.24:867][893]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.02.05-10.35.27:121][996]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.02.05-10.35.29:141][ 83]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.02.05-10.35.31:267][178]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.02.05-10.35.33:320][264]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.02.05-10.35.35:342][361]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.02.05-10.35.37:372][454]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.02.05-10.35.38:008][489]LogHttp: Warning: 000005D6FA688700: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8748547B-4B92-F3CC-B038-EE9AB182EB14%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.0-23058290%2B%2B%2BUE5%2BRelease-5.1&UserID=e870f66c468e244a2752648a65583ce7%7C797722850b894862873c5f59374ff10d%7Caa4dd3d5-7a37-4932-a5ed-b78cbcb47b2e&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.02.05-10.35.38:009][489]LogHttp: Warning: 000005D6FA688700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.02.05-10.35.38:009][489]LogHttp: Warning: 000005D6FA688700: libcurl info message cache 0 (Connection 0 seems to be dead)
+[2023.02.05-10.35.38:009][489]LogHttp: Warning: 000005D6FA688700: libcurl info message cache 1 (Closing connection 0)
+[2023.02.05-10.35.38:009][489]LogHttp: Warning: 000005D6FA688700: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.02.05-10.35.38:009][489]LogHttp: Warning: 000005D6FA688700: libcurl info message cache 3 (Closing connection 1)
+[2023.02.05-10.35.38:009][489]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8748547B-4B92-F3CC-B038-EE9AB182EB14%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.0-23058290%2B%2B%2BUE5%2BRelease-5.1&UserID=e870f66c468e244a2752648a65583ce7%7C797722850b894862873c5f59374ff10d%7Caa4dd3d5-7a37-4932-a5ed-b78cbcb47b2e&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.02.05-10.35.39:407][547]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.02.05-10.35.41:431][640]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.02.05-10.36.38:007][410]LogHttp: Warning: 000005D700782D00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8748547B-4B92-F3CC-B038-EE9AB182EB14%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.0-23058290%2B%2B%2BUE5%2BRelease-5.1&UserID=e870f66c468e244a2752648a65583ce7%7C797722850b894862873c5f59374ff10d%7Caa4dd3d5-7a37-4932-a5ed-b78cbcb47b2e&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.02.05-10.36.38:007][410]LogHttp: Warning: 000005D700782D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.02.05-10.36.38:007][410]LogHttp: Warning: 000005D700782D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.02.05-10.36.38:007][410]LogHttp: Warning: 000005D700782D00: libcurl info message cache 1 (Closing connection 2)
+[2023.02.05-10.36.38:007][410]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8748547B-4B92-F3CC-B038-EE9AB182EB14%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.0-23058290%2B%2B%2BUE5%2BRelease-5.1&UserID=e870f66c468e244a2752648a65583ce7%7C797722850b894862873c5f59374ff10d%7Caa4dd3d5-7a37-4932-a5ed-b78cbcb47b2e&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.02.05-10.36.52:913][507]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2023.02.05-10.46.40:417][507]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.02.05-10.46.40:822][507]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=15180
+[2023.02.05-10.46.42:391][509]LogHttp: Warning: 000005D70078D200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8748547B-4B92-F3CC-B038-EE9AB182EB14%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.0-23058290%2B%2B%2BUE5%2BRelease-5.1&UserID=e870f66c468e244a2752648a65583ce7%7C797722850b894862873c5f59374ff10d%7Caa4dd3d5-7a37-4932-a5ed-b78cbcb47b2e&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.02.05-10.46.42:391][509]LogHttp: Warning: 000005D70078D200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.02.05-10.46.42:391][509]LogHttp: Warning: 000005D70078D200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.02.05-10.46.42:391][509]LogHttp: Warning: 000005D70078D200: libcurl info message cache 1 (Closing connection 3)
+[2023.02.05-10.46.42:391][509]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8748547B-4B92-F3CC-B038-EE9AB182EB14%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.0-23058290%2B%2B%2BUE5%2BRelease-5.1&UserID=e870f66c468e244a2752648a65583ce7%7C797722850b894862873c5f59374ff10d%7Caa4dd3d5-7a37-4932-a5ed-b78cbcb47b2e&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.02.05-10.46.44:130][513]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{5aabab8f-15f7-4b58-a584-f8d482bbda82}, Name=Głośnik/Słuchawki (Realtek High Definition Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=3006.29
+[2023.02.05-10.46.44:130][513]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.02.05-10.46.44:173][513]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.02.05-10.46.55:153][546]LogViewport: Scene viewport resized to 984x447, mode Windowed.
+[2023.02.05-10.46.55:689][552]LogViewport: Scene viewport resized to 984x427, mode Windowed.
+[2023.02.05-10.46.55:792][552]LogViewport: Scene viewport resized to 984x510, mode Windowed.
