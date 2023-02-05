@@ -1363,3 +1363,179 @@ Make sure 'BP_PlayerCharacter_C' has been compiled for  Get Cube
 [2023.02.05-10.46.55:153][546]LogViewport: Scene viewport resized to 984x447, mode Windowed.
 [2023.02.05-10.46.55:689][552]LogViewport: Scene viewport resized to 984x427, mode Windowed.
 [2023.02.05-10.46.55:792][552]LogViewport: Scene viewport resized to 984x510, mode Windowed.
+[2023.02.05-10.49.30:226][150]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.02.05-10.49.30:236][150]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.05-10.49.30:236][150]PIE: New page: PIE session: StartLevel (5 lut 2023, 12:49:30)
+[2023.02.05-10.49.30:236][150]LogPlayLevel: Creating play world package: /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel
+[2023.02.05-10.49.30:245][150]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009017s)
+[2023.02.05-10.49.30:245][150]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/KorzonkiOne/Levels/StartLevel.StartLevel to /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel.StartLevel (0.009072s)
+[2023.02.05-10.49.30:246][150]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.05-10.49.30:246][150]LogAIModule: Creating AISystem for world StartLevel
+[2023.02.05-10.49.30:246][150]LogPlayLevel: PIE: World Init took: (0.001218s)
+[2023.02.05-10.49.30:307][150]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2023.02.05-10.49.30:312][150]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.02.05-10.49.30:312][150]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.05-10.49.30:312][150]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.05-10.49.30:312][150]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.05-10.49.30:312][150]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.05-10.49.30:313][150]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.02.05-10.49.30:313][150]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.02.05-10.49.30:313][150]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.02.05-10.49.30:313][150]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.05-10.49.30:313][150]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.05-10.49.30:313][150]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.05-10.49.30:313][150]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.05-10.49.30:315][150]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.02.05-10.49.30:358][150]LogAudioMixer: Display: Using Audio Hardware Device Głośnik/Słuchawki (Realtek High Definition Audio)
+[2023.02.05-10.49.30:359][150]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.05-10.49.30:359][150]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.05-10.49.30:359][150]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.05-10.49.30:360][150]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2023.02.05-10.49.30:360][150]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2023.02.05-10.49.30:362][150]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2023.02.05-10.49.30:362][150]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2023.02.05-10.49.30:362][150]LogInit: FAudioDevice initialized.
+[2023.02.05-10.49.30:362][150]LogAudio: Display: Audio Device (ID: 4) registered with world 'StartLevel'.
+[2023.02.05-10.49.30:366][150]LogLoad: Game class is 'BP_KorzonkiGamemode_C'
+[2023.02.05-10.49.30:368][150]LogWorld: Bringing World /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel.StartLevel up for play (max tick rate 60) at 2023.02.05-11.49.30
+[2023.02.05-10.49.30:368][150]LogWorld: Bringing up level for play took: 0.002145
+[2023.02.05-10.49.30:372][150]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2023.02.05-10.49.30:374][150]PIE: Server logged in
+[2023.02.05-10.49.30:375][150]PIE: Play in editor total start time 0,14 seconds.
+[2023.02.05-10.49.37:258][243]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.05-10.49.37:259][243]LogWorld: BeginTearingDown for /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel
+[2023.02.05-10.49.37:259][243]LogWorld: UWorld::CleanupWorld for StartLevel, bSessionEnded=true, bCleanupResources=true
+[2023.02.05-10.49.37:260][243]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.05-10.49.37:344][243]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.05-10.49.37:352][243]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.05-10.49.37:390][243]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.02.05-10.49.37:390][243]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.02.05-10.49.37:393][243]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.02.05-10.49.37:398][243]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.05-10.49.37:402][243]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2023.02.05-10.49.37:491][244]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2023.02.05-10.49.43:595][408]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.02.05-10.49.43:613][408]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.05-10.49.43:613][408]PIE: New page: PIE session: StartLevel (5 lut 2023, 12:49:43)
+[2023.02.05-10.49.43:613][408]LogPlayLevel: Creating play world package: /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel
+[2023.02.05-10.49.43:628][408]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014845s)
+[2023.02.05-10.49.43:628][408]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/KorzonkiOne/Levels/StartLevel.StartLevel to /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel.StartLevel (0.014932s)
+[2023.02.05-10.49.43:628][408]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.05-10.49.43:628][408]LogAIModule: Creating AISystem for world StartLevel
+[2023.02.05-10.49.43:629][408]LogPlayLevel: PIE: World Init took: (0.001901s)
+[2023.02.05-10.49.43:681][408]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2023.02.05-10.49.43:683][408]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2023.02.05-10.49.43:683][408]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.05-10.49.43:683][408]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.05-10.49.43:683][408]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.05-10.49.43:683][408]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.05-10.49.43:683][408]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.02.05-10.49.43:683][408]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.02.05-10.49.43:683][408]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.02.05-10.49.43:684][408]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.05-10.49.43:684][408]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.05-10.49.43:684][408]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.05-10.49.43:684][408]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.05-10.49.43:687][408]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.02.05-10.49.43:725][408]LogAudioMixer: Display: Using Audio Hardware Device Głośnik/Słuchawki (Realtek High Definition Audio)
+[2023.02.05-10.49.43:725][408]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.05-10.49.43:726][408]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.05-10.49.43:726][408]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.05-10.49.43:726][408]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2023.02.05-10.49.43:726][408]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2023.02.05-10.49.43:728][408]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2023.02.05-10.49.43:728][408]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2023.02.05-10.49.43:728][408]LogInit: FAudioDevice initialized.
+[2023.02.05-10.49.43:728][408]LogAudio: Display: Audio Device (ID: 5) registered with world 'StartLevel'.
+[2023.02.05-10.49.43:732][408]LogLoad: Game class is 'BP_KorzonkiGamemode_C'
+[2023.02.05-10.49.43:734][408]LogWorld: Bringing World /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel.StartLevel up for play (max tick rate 60) at 2023.02.05-11.49.43
+[2023.02.05-10.49.43:734][408]LogWorld: Bringing up level for play took: 0.001826
+[2023.02.05-10.49.43:737][408]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2023.02.05-10.49.43:739][408]PIE: Server logged in
+[2023.02.05-10.49.43:740][408]PIE: Play in editor total start time 0,128 seconds.
+[2023.02.05-10.49.46:607][452]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.05-10.49.46:607][452]LogWorld: BeginTearingDown for /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel
+[2023.02.05-10.49.46:607][452]LogWorld: UWorld::CleanupWorld for StartLevel, bSessionEnded=true, bCleanupResources=true
+[2023.02.05-10.49.46:608][452]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.05-10.49.46:699][452]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.05-10.49.46:711][452]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.05-10.49.46:759][452]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.02.05-10.49.46:759][452]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.02.05-10.49.46:760][452]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.02.05-10.49.46:766][452]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.05-10.49.46:769][452]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2023.02.05-10.49.46:850][453]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2023.02.05-10.50.02:857][658]LogViewport: Scene viewport resized to 1175x514, mode Windowed.
+[2023.02.05-10.54.24:982][349]Cmd: DELETE
+[2023.02.05-10.54.24:994][349]Cmd: ACTOR DELETE
+[2023.02.05-10.54.25:229][349]LogEditorActor: Cannot delete component SceneComponent /Game/KorzonkiOne/Levels/StartLevel.StartLevel:PersistentLevel.MediaPlate_1.Root: Can't delete non-editable component.
+[2023.02.05-10.54.31:013][785]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.02.05-10.54.38:112][254]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2023.02.05-10.54.42:278][254]LogSlate: Window 'Delete Assets' being destroyed
+[2023.02.05-10.55.05:986][543]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.02.05-10.55.08:371][543]LogSlate: Window 'Delete Assets' being destroyed
+[2023.02.05-10.55.08:491][543]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/KorzonkiOne/Music/Gigakoops_-_Revenge_from_Behind_the_Grave.Gigakoops_-_Revenge_from_Behind_the_Grave
+	Asset Type: FileMediaSource
+[2023.02.05-10.55.09:645][543]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2023.02.05-10.55.09:672][543]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2023.02.05-10.55.09:698][543]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.02.05-10.55.16:281][733]LogFactory: FactoryCreateFile: SoundWave with SoundFactory (0 0 C:\Users\egal1\Desktop\GameDev\LubJAm\rozdział 3\dźwięki\Gigakoops - Revenge from Behind the Grave.wav)
+[2023.02.05-10.55.16:366][733]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave Gigakoops_-_Revenge_from_Behind_the_Grave...
+[2023.02.05-10.55.16:440][733]LogAudioDerivedData: Display: Audio clipped during cook: This asset will be normalized by a factor of 1/1.000031. Consider attenuating the above asset.
+[2023.02.05-10.55.17:695][733]LogAudio: Display: Chunk size for SoundWave /Game/KorzonkiOne/Music/Gigakoops_-_Revenge_from_Behind_the_Grave.Gigakoops_-_Revenge_from_Behind_the_Grave: 262144
+[2023.02.05-10.55.17:755][733]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave Gigakoops_-_Revenge_from_Behind_the_Grave...
+[2023.02.05-10.55.17:782][735]LogAudioDerivedData: Display: Audio clipped during cook: This asset will be normalized by a factor of 1/1.000031. Consider attenuating the above asset.
+[2023.02.05-10.55.19:149][757]LogAudio: Display: Chunk size for SoundWave /Game/KorzonkiOne/Music/Gigakoops_-_Revenge_from_Behind_the_Grave.Gigakoops_-_Revenge_from_Behind_the_Grave: 262144
+[2023.02.05-10.55.25:155][194]LogContentBrowser: Deferred new asset file creation: Gigakoops_-_Revenge_from_Behind_the_Grave_Cue
+[2023.02.05-10.55.25:304][194]LogContentBrowser: Creating deferred item: Gigakoops_-_Revenge_from_Behind_the_Grave_Cue
+[2023.02.05-10.55.25:355][195]LogContentBrowser: Renaming the item being created (Deferred Item: Gigakoops_-_Revenge_from_Behind_the_Grave_Cue).
+[2023.02.05-10.55.35:090][777]LogContentBrowser: Attempting asset rename: Gigakoops_-_Revenge_from_Behind_the_Grave_Cue -> BackgroundSound
+[2023.02.05-10.55.35:157][777]LogContentBrowser: End creating deferred item Gigakoops_-_Revenge_from_Behind_the_Grave_Cue
+[2023.02.05-10.55.56:922][384]Cmd: DELETE
+[2023.02.05-10.55.56:922][384]Cmd: ACTOR DELETE
+[2023.02.05-10.55.57:056][384]LogEditorActor: Deleted Actor: MediaPlate
+[2023.02.05-10.55.57:100][384]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2023.02.05-10.55.57:104][384]LogEditorActor: Deleted 1 Actors (0.182 secs)
+[2023.02.05-10.56.48:246][663]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2023.02.05-10.56.48:269][663]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/KorzonkiOne/Levels/StartLevel_Auto1
+[2023.02.05-10.56.48:269][663]LogSavePackage: Moving '../../../../../lubjam/Korzonki2023/Saved/StartLevel_Auto109F303F44572D875F12168BD0932FD73.tmp' to '../../../../../lubjam/Korzonki2023/Saved/Autosaves/Game/KorzonkiOne/Levels/StartLevel_Auto1.umap'
+[2023.02.05-10.56.48:277][663]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/KorzonkiOne/Levels/StartLevel' took 0.072
+[2023.02.05-10.56.48:277][663]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.072
+[2023.02.05-10.56.48:277][663]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/KorzonkiOne/Music/Gigakoops_-_Revenge_from_Behind_the_Grave] ([1] browsable assets)...
+[2023.02.05-10.56.48:308][663]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/KorzonkiOne/Music/Gigakoops_-_Revenge_from_Behind_the_Grave.Gigakoops_-_Revenge_from_Behind_the_Grave]
+[2023.02.05-10.56.48:308][663]OBJ SavePackage: Finished generating thumbnails for package [/Game/KorzonkiOne/Music/Gigakoops_-_Revenge_from_Behind_the_Grave]
+[2023.02.05-10.56.48:684][663]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/KorzonkiOne/Music/Gigakoops_-_Revenge_from_Behind_the_Grave_Auto1
+[2023.02.05-10.56.48:684][663]LogSavePackage: Moving '../../../../../lubjam/Korzonki2023/Saved/Gigakoops_-_Revenge_from_Behind_E1A7C5B54C973477F366668EAFD41EE9.tmp' to '../../../../../lubjam/Korzonki2023/Saved/Autosaves/Game/KorzonkiOne/Music/Gigakoops_-_Revenge_from_Behind_the_Grave_Auto1.uasset'
+[2023.02.05-10.56.48:685][663]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/KorzonkiOne/Music/BackgroundSound] ([1] browsable assets)...
+[2023.02.05-10.56.48:685][663]OBJ SavePackage: Finished generating thumbnails for package [/Game/KorzonkiOne/Music/BackgroundSound]
+[2023.02.05-10.56.48:687][663]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/KorzonkiOne/Music/BackgroundSound_Auto1
+[2023.02.05-10.56.48:687][663]LogSavePackage: Moving '../../../../../lubjam/Korzonki2023/Saved/BackgroundSound_Auto1102FAB664B5F12876016C59955E0FF5F.tmp' to '../../../../../lubjam/Korzonki2023/Saved/Autosaves/Game/KorzonkiOne/Music/BackgroundSound_Auto1.uasset'
+[2023.02.05-10.56.48:689][663]LogFileHelpers: Auto-saving content packages took 0.412
+[2023.02.05-10.57.21:556][902]LogAssetEditorSubsystem: Opening Asset editor for SoundCue /Game/KorzonkiOne/Music/BackgroundSound.BackgroundSound
+[2023.02.05-10.57.37:388][366]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.05-10.57.37:473][366]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Music/BackgroundSound" FILE="../../../../../lubjam/Korzonki2023/Content/KorzonkiOne/Music/BackgroundSound.uasset" SILENT=true
+[2023.02.05-10.57.37:482][366]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Music/BackgroundSound
+[2023.02.05-10.57.37:482][366]LogSavePackage: Moving '../../../../../lubjam/Korzonki2023/Saved/BackgroundSound5B498F1343E034D3BA28BB999B3E6F35.tmp' to '../../../../../lubjam/Korzonki2023/Content/KorzonkiOne/Music/BackgroundSound.uasset'
+[2023.02.05-10.57.37:490][366]LogFileHelpers: InternalPromptForCheckoutAndSave took 102 ms (total: 690 ms)
+[2023.02.05-10.57.37:496][366]AssetCheck: New page: Asset Save: BackgroundSound
+[2023.02.05-10.57.37:496][366]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/KorzonkiOne/Music/BackgroundSound.BackgroundSound
+[2023.02.05-10.58.01:335][615]LogActorFactory: Actor Factory attempting to spawn SoundCue /Game/KorzonkiOne/Music/BackgroundSound.BackgroundSound
+[2023.02.05-10.58.01:335][615]LogActorFactory: Actor Factory attempting to spawn SoundCue /Game/KorzonkiOne/Music/BackgroundSound.BackgroundSound
+[2023.02.05-10.58.01:335][615]LogActorFactory: Actor Factory spawned SoundCue /Game/KorzonkiOne/Music/BackgroundSound.BackgroundSound as actor: AmbientSound /Game/KorzonkiOne/Levels/StartLevel.StartLevel:PersistentLevel.AmbientSound_0
+[2023.02.05-10.58.01:378][615]LogActorFactory: Actor Factory spawned SoundCue /Game/KorzonkiOne/Music/BackgroundSound.BackgroundSound as actor: AmbientSound /Game/KorzonkiOne/Levels/StartLevel.StartLevel:PersistentLevel.AmbientSound_0
+[2023.02.05-10.58.05:682][950]LogActorFactory: Actor Factory attempting to spawn SoundCue /Game/KorzonkiOne/Music/BackgroundSound.BackgroundSound
+[2023.02.05-10.58.05:682][950]LogActorFactory: Actor Factory attempting to spawn SoundCue /Game/KorzonkiOne/Music/BackgroundSound.BackgroundSound
+[2023.02.05-10.58.05:683][950]LogActorFactory: Actor Factory spawned SoundCue /Game/KorzonkiOne/Music/BackgroundSound.BackgroundSound as actor: AmbientSound /Game/KorzonkiOne/Levels/StartLevel.StartLevel:PersistentLevel.AmbientSound_1
+[2023.02.05-10.58.05:683][950]LogActorFactory: Actor Factory spawned SoundCue /Game/KorzonkiOne/Music/BackgroundSound.BackgroundSound as actor: AmbientSound /Game/KorzonkiOne/Levels/StartLevel.StartLevel:PersistentLevel.AmbientSound_1
+[2023.02.05-10.58.27:883][602]LogSlate: Window 'BackgroundSound' being destroyed
+[2023.02.05-10.58.27:891][602]LogSlate: Window 'BackgroundSound' being destroyed
+[2023.02.05-11.00.15:281][156]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.05-11.00.15:380][156]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Levels/StartLevel" FILE="../../../../../lubjam/Korzonki2023/Content/KorzonkiOne/Levels/StartLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.02.05-11.00.15:411][156]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2023.02.05-11.00.15:429][156]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Levels/StartLevel
+[2023.02.05-11.00.15:430][156]LogSavePackage: Moving '../../../../../lubjam/Korzonki2023/Saved/StartLevelF4A7698248AD36959B2109AB44884A3D.tmp' to '../../../../../lubjam/Korzonki2023/Content/KorzonkiOne/Levels/StartLevel.umap'
+[2023.02.05-11.00.15:440][156]LogFileHelpers: Saving map 'StartLevel' took 0.060
+[2023.02.05-11.00.15:447][156]LogFileHelpers: InternalPromptForCheckoutAndSave took 166 ms (total: 856 ms)
+[2023.02.05-11.00.15:454][156]AssetCheck: New page: Asset Save: StartLevel
+[2023.02.05-11.00.15:454][156]LogContentValidation: Display: Validating /Script/Engine.World /Game/KorzonkiOne/Levels/StartLevel.StartLevel
