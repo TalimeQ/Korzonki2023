@@ -1539,3 +1539,323 @@ Make sure 'BP_PlayerCharacter_C' has been compiled for  Get Cube
 [2023.02.05-11.00.15:447][156]LogFileHelpers: InternalPromptForCheckoutAndSave took 166 ms (total: 856 ms)
 [2023.02.05-11.00.15:454][156]AssetCheck: New page: Asset Save: StartLevel
 [2023.02.05-11.00.15:454][156]LogContentValidation: Display: Validating /Script/Engine.World /Game/KorzonkiOne/Levels/StartLevel.StartLevel
+[2023.02.05-11.03.23:794][233]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.02.05-11.03.23:809][233]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.05-11.03.23:809][233]PIE: New page: PIE session: StartLevel (5 lut 2023, 13:03:23)
+[2023.02.05-11.03.23:809][233]LogPlayLevel: Creating play world package: /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel
+[2023.02.05-11.03.23:814][233]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004479s)
+[2023.02.05-11.03.23:814][233]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/KorzonkiOne/Levels/StartLevel.StartLevel to /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel.StartLevel (0.004511s)
+[2023.02.05-11.03.23:814][233]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.05-11.03.23:814][233]LogAIModule: Creating AISystem for world StartLevel
+[2023.02.05-11.03.23:814][233]LogPlayLevel: PIE: World Init took: (0.000803s)
+[2023.02.05-11.03.23:842][233]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2023.02.05-11.03.23:843][233]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.02.05-11.03.23:843][233]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.05-11.03.23:843][233]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.05-11.03.23:843][233]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.05-11.03.23:843][233]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.05-11.03.23:843][233]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.02.05-11.03.23:843][233]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.02.05-11.03.23:843][233]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.02.05-11.03.23:843][233]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.05-11.03.23:843][233]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.05-11.03.23:843][233]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.05-11.03.23:843][233]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.05-11.03.23:846][233]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.02.05-11.03.23:873][233]LogAudioMixer: Display: Using Audio Hardware Device Głośnik/Słuchawki (Realtek High Definition Audio)
+[2023.02.05-11.03.23:873][233]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.05-11.03.23:873][233]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.05-11.03.23:873][233]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.05-11.03.23:874][233]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2023.02.05-11.03.23:874][233]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2023.02.05-11.03.23:876][233]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2023.02.05-11.03.23:876][233]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2023.02.05-11.03.23:876][233]LogInit: FAudioDevice initialized.
+[2023.02.05-11.03.23:876][233]LogAudio: Display: Audio Device (ID: 6) registered with world 'StartLevel'.
+[2023.02.05-11.03.23:879][233]LogLoad: Game class is 'BP_KorzonkiGamemode_C'
+[2023.02.05-11.03.23:880][233]LogWorld: Bringing World /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel.StartLevel up for play (max tick rate 0) at 2023.02.05-12.03.23
+[2023.02.05-11.03.23:880][233]LogWorld: Bringing up level for play took: 0.001396
+[2023.02.05-11.03.23:882][233]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2023.02.05-11.03.23:884][233]PIE: Server logged in
+[2023.02.05-11.03.23:885][233]PIE: Play in editor total start time 0,077 seconds.
+[2023.02.05-11.03.26:823][384]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.05-11.03.26:823][384]LogWorld: BeginTearingDown for /Game/KorzonkiOne/Levels/UEDPIE_0_StartLevel
+[2023.02.05-11.03.26:823][384]LogWorld: UWorld::CleanupWorld for StartLevel, bSessionEnded=true, bCleanupResources=true
+[2023.02.05-11.03.26:823][384]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.05-11.03.26:828][384]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.05-11.03.26:833][384]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.05-11.03.26:863][384]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.02.05-11.03.26:863][384]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.02.05-11.03.26:865][384]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.02.05-11.03.26:869][384]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.05-11.03.26:871][384]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.02.05-11.03.26:919][385]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2023.02.05-11.05.51:036][464]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/KorzonkiOne/Blueprint/Game_UI.Game_UI
+[2023.02.05-11.05.51:043][464]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.05-11.05.51:052][464]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.05-11.05.51:091][464]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2023.02.05-11.05.51:924][464]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.05-11.05.51:924][464]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.05-11.05.52:787][464]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2023.02.05-11.05.52:809][464]LogSlate: Took 0.011772 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.02.05-11.07.05:551][603]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.05-11.07.05:551][603]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.05-11.08.56:920][221]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.05-11.08.56:920][221]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.05-11.08.59:768][360]LogOutputDevice: Warning: 
+
+Script Stack (0 frames) :
+
+[2023.02.05-11.08.59:848][360]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.049 s
+[2023.02.05-11.08.59:848][360]LogOutputDevice: Error: === Handled ensure: ===
+[2023.02.05-11.08.59:848][360]LogOutputDevice: Error: 
+[2023.02.05-11.08.59:848][360]LogOutputDevice: Error: Ensure condition failed: ScopedTransaction != nullptr  [File:D:\build\++UE5\Sync\Engine\Source\Editor\UMGEditor\Private\Extensions\DesignerExtension.cpp] [Line: 67] 
+[2023.02.05-11.08.59:848][360]LogOutputDevice: Error: 
+[2023.02.05-11.08.59:848][360]LogOutputDevice: Error: Stack: 
+[2023.02.05-11.08.59:848][360]LogOutputDevice: Error: [Callstack] 0x00007ffbb13236b4 UnrealEditor-UMGEditor.dll!UnknownFunction []
+[2023.02.05-11.08.59:848][360]LogOutputDevice: Error: [Callstack] 0x00007ffbb136636f UnrealEditor-UMGEditor.dll!UnknownFunction []
+[2023.02.05-11.08.59:848][360]LogOutputDevice: Error: [Callstack] 0x00007ffbb1329be3 UnrealEditor-UMGEditor.dll!UnknownFunction []
+[2023.02.05-11.08.59:848][360]LogOutputDevice: Error: [Callstack] 0x00007ffbe2964d83 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2023.02.05-11.08.59:848][360]LogOutputDevice: Error: [Callstack] 0x00007ffbe2daa1eb UnrealEditor-Slate.dll!UnknownFunction []
+[2023.02.05-11.08.59:848][360]LogOutputDevice: Error: [Callstack] 0x00007ffbe2d8e7d3 UnrealEditor-Slate.dll!UnknownFunction []
+[2023.02.05-11.08.59:848][360]LogOutputDevice: Error: [Callstack] 0x00007ffbe2df694a UnrealEditor-Slate.dll!UnknownFunction []
+[2023.02.05-11.08.59:849][360]LogOutputDevice: Error: [Callstack] 0x00007ffbe2de5223 UnrealEditor-Slate.dll!UnknownFunction []
+[2023.02.05-11.08.59:849][360]LogOutputDevice: Error: [Callstack] 0x00007ffbe2ddaecc UnrealEditor-Slate.dll!UnknownFunction []
+[2023.02.05-11.08.59:849][360]LogOutputDevice: Error: [Callstack] 0x00007ffc20b719a2 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2023.02.05-11.08.59:849][360]LogOutputDevice: Error: [Callstack] 0x00007ffc20b567d1 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2023.02.05-11.08.59:849][360]LogOutputDevice: Error: [Callstack] 0x00007ffc20b74391 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2023.02.05-11.08.59:849][360]LogOutputDevice: Error: [Callstack] 0x00007ffc20b4ff93 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2023.02.05-11.08.59:849][360]LogOutputDevice: Error: [Callstack] 0x00007ffc7e141cec USER32.dll!UnknownFunction []
+[2023.02.05-11.08.59:849][360]LogOutputDevice: Error: [Callstack] 0x00007ffc7e140f46 USER32.dll!UnknownFunction []
+[2023.02.05-11.08.59:849][360]LogOutputDevice: Error: [Callstack] 0x00007ffc20b75849 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2023.02.05-11.08.59:849][360]LogOutputDevice: Error: [Callstack] 0x00007ff74f807332 UnrealEditor.exe!UnknownFunction []
+[2023.02.05-11.08.59:849][360]LogOutputDevice: Error: [Callstack] 0x00007ff74f82287d UnrealEditor.exe!UnknownFunction []
+[2023.02.05-11.08.59:849][360]LogOutputDevice: Error: [Callstack] 0x00007ff74f82296a UnrealEditor.exe!UnknownFunction []
+[2023.02.05-11.08.59:849][360]LogOutputDevice: Error: [Callstack] 0x00007ff74f825680 UnrealEditor.exe!UnknownFunction []
+[2023.02.05-11.08.59:849][360]LogOutputDevice: Error: [Callstack] 0x00007ff74f8371b4 UnrealEditor.exe!UnknownFunction []
+[2023.02.05-11.08.59:849][360]LogOutputDevice: Error: [Callstack] 0x00007ff74f83a516 UnrealEditor.exe!UnknownFunction []
+[2023.02.05-11.08.59:849][360]LogOutputDevice: Error: [Callstack] 0x00007ffc7f9355a0 KERNEL32.DLL!UnknownFunction []
+[2023.02.05-11.08.59:849][360]LogOutputDevice: Error: [Callstack] 0x00007ffc7fa8485b ntdll.dll!UnknownFunction []
+[2023.02.05-11.08.59:849][360]LogOutputDevice: Error: 
+[2023.02.05-11.08.59:874][360]LogStats:                SubmitErrorReport -  0.000 s
+[2023.02.05-11.09.01:032][360]LogStats:                    SendNewReport -  1.159 s
+[2023.02.05-11.09.01:032][360]LogStats:             FDebug::EnsureFailed -  1.275 s
+[2023.02.05-11.10.44:712][824]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2023.02.05-11.10.44:713][824]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/KorzonkiOne/Levels/StartLevel' took 0.091
+[2023.02.05-11.10.44:714][824]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/KorzonkiOne/Blueprint/Game_UI] ([2] browsable assets)...
+[2023.02.05-11.10.44:720][824]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/KorzonkiOne/Blueprint/Game_UI.Game_UI]
+[2023.02.05-11.10.44:720][824]OBJ SavePackage: Finished generating thumbnails for package [/Game/KorzonkiOne/Blueprint/Game_UI]
+[2023.02.05-11.10.44:720][824]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Blueprint/Game_UI" FILE="../../../../../lubjam/Korzonki2023/Saved/Autosaves/Game/KorzonkiOne/Blueprint/Game_UI_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2023.02.05-11.10.44:739][824]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/KorzonkiOne/Blueprint/Game_UI_Auto2
+[2023.02.05-11.10.44:739][824]LogSavePackage: Moving '../../../../../lubjam/Korzonki2023/Saved/Game_UI_Auto256B134294C1D44363FBF8482E0D7F31F.tmp' to '../../../../../lubjam/Korzonki2023/Saved/Autosaves/Game/KorzonkiOne/Blueprint/Game_UI_Auto2.uasset'
+[2023.02.05-11.10.44:740][824]LogFileHelpers: Auto-saving content packages took 0.027
+[2023.02.05-11.13.05:958][ 87]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.05-11.13.05:958][ 87]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.05-11.13.48:323][322]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.02.05-11.13.48:339][322]LogContentBrowser: Creating deferred item: NewFolder
+[2023.02.05-11.13.48:358][323]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.02.05-11.13.57:608][810]LogContentBrowser: Attempting asset rename: NewFolder -> drzewa
+[2023.02.05-11.13.57:608][810]LogContentBrowser: End creating deferred item NewFolder
+[2023.02.05-11.15.54:801][432]LogInterchangeEngine: [Pending] Importing
+[2023.02.05-11.15.54:802][432]LogInterchangeEngine: [Pending] Importing -  (2)
+[2023.02.05-11.15.54:803][432]LogInterchangeEngine: [Pending] Importing -  (3)
+[2023.02.05-11.15.54:803][432]LogInterchangeEngine: [Pending] Importing -  (4)
+[2023.02.05-11.15.54:920][433]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2023.02.05-11.15.54:921][433]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2023.02.05-11.15.54:924][433]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2023.02.05-11.15.54:947][433]LogInterchangeEngine: [Pending] Importing -  (4)
+[2023.02.05-11.15.54:964][433]LogTexture: Display: Building textures: /Game/KorzonkiOne/ArtAssets/drzewa/kielkujace.kielkujace (BGRA8, 74x69 x1x1x1) (Required Memory Estimate: 0.21183 MB), EncodeSpeed: Fast
+[2023.02.05-11.15.54:969][433]LogTexture: Display: Building textures: /Game/KorzonkiOne/ArtAssets/drzewa/prawie_dorosle.prawie_dorosle (BGRA8, 119x172 x1x1x1) (Required Memory Estimate: 0.661095 MB), EncodeSpeed: Fast
+[2023.02.05-11.15.54:971][433]LogTexture: Display: Building textures: /Game/KorzonkiOne/ArtAssets/drzewa/dorosłe.dorosłe (BGRA8, 215x324 x1x1x1) (Required Memory Estimate: 2.099777 MB), EncodeSpeed: Fast
+[2023.02.05-11.15.54:990][433]LogInterchangeEngine: [Pending] Importing -  (2)
+[2023.02.05-11.15.54:990][433]LogInterchangeEngine: [Pending] Importing -  (3)
+[2023.02.05-11.15.54:990][433]LogInterchangeEngine: [Pending] Importing -  (2)
+[2023.02.05-11.15.54:990][433]LogInterchangeEngine: [Pending] Importing -  (1)
+[2023.02.05-11.15.55:305][434]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2023.02.05-11.15.55:384][435]LogTexture: Display: Building textures: /Game/KorzonkiOne/ArtAssets/drzewa/ziarenko.ziarenko (BGRA8, 48x46 x1x1x1) (Required Memory Estimate: 0.127075 MB), EncodeSpeed: Fast
+[2023.02.05-11.15.55:677][435]LogInterchangeEngine: [Success] Import Done
+[2023.02.05-11.15.55:789][436]LogInterchangeEngine: [Success] Import Done
+[2023.02.05-11.19.57:030][115]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'UKismetMathLibrary::GreaterEqual_TimespanTimespan' [Nie można odnaleźć elementu.]
+[2023.02.05-11.20.44:976][620]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2023.02.05-11.20.44:978][620]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/KorzonkiOne/Levels/StartLevel' took 0.060
+[2023.02.05-11.20.44:978][620]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/KorzonkiOne/Blueprint/Game_UI] ([2] browsable assets)...
+[2023.02.05-11.20.44:980][620]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/KorzonkiOne/Blueprint/Game_UI.Game_UI]
+[2023.02.05-11.20.44:981][620]OBJ SavePackage: Finished generating thumbnails for package [/Game/KorzonkiOne/Blueprint/Game_UI]
+[2023.02.05-11.20.44:981][620]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Blueprint/Game_UI" FILE="../../../../../lubjam/Korzonki2023/Saved/Autosaves/Game/KorzonkiOne/Blueprint/Game_UI_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2023.02.05-11.20.44:990][620]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/KorzonkiOne/Blueprint/Game_UI_Auto3
+[2023.02.05-11.20.44:991][620]LogSavePackage: Moving '../../../../../lubjam/Korzonki2023/Saved/Game_UI_Auto3355C9A3247B1915FA0C2DB96D427551E.tmp' to '../../../../../lubjam/Korzonki2023/Saved/Autosaves/Game/KorzonkiOne/Blueprint/Game_UI_Auto3.uasset'
+[2023.02.05-11.20.45:270][620]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/KorzonkiOne/ArtAssets/drzewa/kielkujace] ([1] browsable assets)...
+[2023.02.05-11.20.45:278][620]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/KorzonkiOne/ArtAssets/drzewa/kielkujace.kielkujace]
+[2023.02.05-11.20.45:278][620]OBJ SavePackage: Finished generating thumbnails for package [/Game/KorzonkiOne/ArtAssets/drzewa/kielkujace]
+[2023.02.05-11.20.45:279][620]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/KorzonkiOne/ArtAssets/drzewa/kielkujace_Auto3
+[2023.02.05-11.20.45:279][620]LogSavePackage: Moving '../../../../../lubjam/Korzonki2023/Saved/kielkujace_Auto38800F91E491F0658EE141BAF2B9879A3.tmp' to '../../../../../lubjam/Korzonki2023/Saved/Autosaves/Game/KorzonkiOne/ArtAssets/drzewa/kielkujace_Auto3.uasset'
+[2023.02.05-11.20.45:280][620]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/KorzonkiOne/ArtAssets/drzewa/dorosłe] ([1] browsable assets)...
+[2023.02.05-11.20.45:282][620]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/KorzonkiOne/ArtAssets/drzewa/dorosłe.dorosłe]
+[2023.02.05-11.20.45:282][620]OBJ SavePackage: Finished generating thumbnails for package [/Game/KorzonkiOne/ArtAssets/drzewa/dorosłe]
+[2023.02.05-11.20.45:300][620]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/KorzonkiOne/ArtAssets/drzewa/dorosłe_Auto3
+[2023.02.05-11.20.45:300][620]LogSavePackage: Moving '../../../../../lubjam/Korzonki2023/Saved/dorosłe_Auto3CB8A6C5D448C66C193FA91906D8CF7B5.tmp' to '../../../../../lubjam/Korzonki2023/Saved/Autosaves/Game/KorzonkiOne/ArtAssets/drzewa/dorosłe_Auto3.uasset'
+[2023.02.05-11.20.45:301][620]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/KorzonkiOne/ArtAssets/drzewa/prawie_dorosle] ([1] browsable assets)...
+[2023.02.05-11.20.45:302][620]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/KorzonkiOne/ArtAssets/drzewa/prawie_dorosle.prawie_dorosle]
+[2023.02.05-11.20.45:302][620]OBJ SavePackage: Finished generating thumbnails for package [/Game/KorzonkiOne/ArtAssets/drzewa/prawie_dorosle]
+[2023.02.05-11.20.45:304][620]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/KorzonkiOne/ArtAssets/drzewa/prawie_dorosle_Auto3
+[2023.02.05-11.20.45:304][620]LogSavePackage: Moving '../../../../../lubjam/Korzonki2023/Saved/prawie_dorosle_Auto34BE8CEF14D2A91DF75D0E4A2912A741A.tmp' to '../../../../../lubjam/Korzonki2023/Saved/Autosaves/Game/KorzonkiOne/ArtAssets/drzewa/prawie_dorosle_Auto3.uasset'
+[2023.02.05-11.20.45:305][620]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/KorzonkiOne/ArtAssets/drzewa/ziarenko] ([1] browsable assets)...
+[2023.02.05-11.20.45:307][620]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/KorzonkiOne/ArtAssets/drzewa/ziarenko.ziarenko]
+[2023.02.05-11.20.45:307][620]OBJ SavePackage: Finished generating thumbnails for package [/Game/KorzonkiOne/ArtAssets/drzewa/ziarenko]
+[2023.02.05-11.20.45:308][620]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/KorzonkiOne/ArtAssets/drzewa/ziarenko_Auto3
+[2023.02.05-11.20.45:308][620]LogSavePackage: Moving '../../../../../lubjam/Korzonki2023/Saved/ziarenko_Auto329ABD493408411256478FEA850172A42.tmp' to '../../../../../lubjam/Korzonki2023/Saved/Autosaves/Game/KorzonkiOne/ArtAssets/drzewa/ziarenko_Auto3.uasset'
+[2023.02.05-11.20.45:309][620]LogFileHelpers: Auto-saving content packages took 0.332
+[2023.02.05-11.21.24:105][ 22]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'UKismetMathLibrary::GreaterEqual_IntInt' [Nie można odnaleźć określonego modułu.]
+[2023.02.05-11.22.19:776][398]LogDerivedDataCache: C:/Users/egal1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:04.156 and deleted 0 files with total size 0 MiB. Scanned 2348 files in 2337 folders with total size 100 MiB.
+[2023.02.05-11.30.45:551][388]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2023.02.05-11.30.45:553][388]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/KorzonkiOne/Levels/StartLevel' took 0.062
+[2023.02.05-11.30.45:554][388]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/KorzonkiOne/Blueprint/Game_UI] ([2] browsable assets)...
+[2023.02.05-11.30.45:557][388]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/KorzonkiOne/Blueprint/Game_UI.Game_UI]
+[2023.02.05-11.30.45:557][388]OBJ SavePackage: Finished generating thumbnails for package [/Game/KorzonkiOne/Blueprint/Game_UI]
+[2023.02.05-11.30.45:557][388]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Blueprint/Game_UI" FILE="../../../../../lubjam/Korzonki2023/Saved/Autosaves/Game/KorzonkiOne/Blueprint/Game_UI_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2023.02.05-11.30.45:568][388]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/KorzonkiOne/Blueprint/Game_UI_Auto4
+[2023.02.05-11.30.45:568][388]LogSavePackage: Moving '../../../../../lubjam/Korzonki2023/Saved/Game_UI_Auto4876471064714A13D4FD465B6BD12AD94.tmp' to '../../../../../lubjam/Korzonki2023/Saved/Autosaves/Game/KorzonkiOne/Blueprint/Game_UI_Auto4.uasset'
+[2023.02.05-11.30.45:569][388]LogFileHelpers: Auto-saving content packages took 0.016
+[2023.02.05-11.40.54:508][465]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'UKismetMathLibrary::GreaterEqual_IntInt' [Nie można odnaleźć określonego modułu.]
+[2023.02.05-11.41.08:633][178]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'UKismetMathLibrary::GreaterEqual_IntInt' [Nie można odnaleźć określonego modułu.]
+[2023.02.05-11.41.12:399][372]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'UKismetMathLibrary::GreaterEqual_IntInt' [Nie można odnaleźć określonego modułu.]
+[2023.02.05-11.41.24:945][994]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'UKismetMathLibrary::GreaterEqual_IntInt' [Nie można odnaleźć określonego modułu.]
+[2023.02.05-11.43.20:887][681]LogEditorTransaction: Undo Break Pin Links
+[2023.02.05-11.43.24:158][831]LogEditorTransaction: Undo Create Reroute Node
+[2023.02.05-11.45.09:612][774]LogEditorTransaction: Undo Create Pin Link
+[2023.02.05-11.45.16:315][127]LogEditorTransaction: Redo Create Pin Link
+[2023.02.05-11.45.18:560][234]LogEditorTransaction: Undo Create Pin Link
+[2023.02.05-11.47.49:867][548]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.05-11.47.49:867][548]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.05-11.48.02:621][195]LogEditorTransaction: Undo Resize Widget
+[2023.02.05-11.48.06:024][374]LogEditorTransaction: Undo Drag and Drop Widget
+[2023.02.05-11.48.09:807][563]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/KorzonkiOne/ArtAssets/drzewa/ziarenko.ziarenko
+[2023.02.05-11.48.10:556][563]LogViewport: Scene viewport resized to 1419x843, mode Windowed.
+[2023.02.05-11.52.22:364][554]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/KorzonkiOne/Core/Interfaces/Scorable.Scorable
+[2023.02.05-11.52.22:365][554]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.05-11.53.38:270][959]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.05-11.53.38:270][959]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.05-11.54.05:314][577]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.05-11.54.05:315][577]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.05-11.54.19:021][303]BlueprintLog: New page: Compile Game_UI
+[2023.02.05-11.54.19:263][303]LogUObjectHash: Compacting FUObjectHashTables data took   4.10ms
+[2023.02.05-11.54.23:313][508]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.05-11.54.23:313][508]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.05-11.54.57:724][515]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.05-11.54.57:724][515]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.05-11.55.43:970][326]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.05-11.55.43:970][326]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.05-11.56.00:954][189]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.05-11.56.00:954][189]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.05-11.56.14:700][948]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.05-11.56.14:700][948]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.05-11.57.59:816][799]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.05-11.57.59:816][799]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.05-11.58.46:069][123]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2023.02.05-11.58.46:076][123]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/KorzonkiOne/Levels/StartLevel' took 0.126
+[2023.02.05-11.58.46:077][123]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/KorzonkiOne/Blueprint/Game_UI] ([2] browsable assets)...
+[2023.02.05-11.58.46:080][123]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/KorzonkiOne/Blueprint/Game_UI.Game_UI]
+[2023.02.05-11.58.46:080][123]OBJ SavePackage: Finished generating thumbnails for package [/Game/KorzonkiOne/Blueprint/Game_UI]
+[2023.02.05-11.58.46:080][123]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Blueprint/Game_UI" FILE="../../../../../lubjam/Korzonki2023/Saved/Autosaves/Game/KorzonkiOne/Blueprint/Game_UI_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2023.02.05-11.58.46:122][123]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/KorzonkiOne/Blueprint/Game_UI_Auto5
+[2023.02.05-11.58.46:122][123]LogSavePackage: Moving '../../../../../lubjam/Korzonki2023/Saved/Game_UI_Auto51E7D2A2A48E980C4C09DDC840D281BD7.tmp' to '../../../../../lubjam/Korzonki2023/Saved/Autosaves/Game/KorzonkiOne/Blueprint/Game_UI_Auto5.uasset'
+[2023.02.05-11.58.46:123][123]LogFileHelpers: Auto-saving content packages took 0.047
+[2023.02.05-12.01.27:136][609]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.05-12.01.27:136][609]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.05-12.01.28:906][694]BlueprintLog: New page: Compile Game_UI
+[2023.02.05-12.01.29:013][694]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2023.02.05-12.02.46:248][731]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.05-12.02.46:248][731]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.05-12.03.25:990][796]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'UKismetMathLibrary::EqualEqual_IntInt' [Nie można odnaleźć określonego modułu.]
+[2023.02.05-12.08.11:092][675]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.05-12.08.11:092][675]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.05-12.10.08:747][956]BlueprintLog: New page: Compile Game_UI
+[2023.02.05-12.10.08:840][956]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2023.02.05-12.10.08:900][956]BlueprintLog: New page: Compile Game_UI
+[2023.02.05-12.10.08:969][956]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2023.02.05-12.10.31:146][ 89]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'UWidget::SetVisibility' [Nie można odnaleźć określonego modułu.]
+[2023.02.05-12.11.09:077][ 80]BlueprintLog: New page: Compile Game_UI
+[2023.02.05-12.11.09:166][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2023.02.05-12.11.10:819][158]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.05-12.11.10:820][158]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.05-12.12.48:976][151]BlueprintLog: New page: Compile Game_UI
+[2023.02.05-12.12.49:072][151]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2023.02.05-12.13.02:859][865]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.05-12.13.02:859][865]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.02.05-12.13.12:792][353]BlueprintLog: New page: Compile Game_UI
+[2023.02.05-12.13.12:878][353]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2023.02.05-12.14.19:880][903]BlueprintLog: New page: Compile Game_UI
+[2023.02.05-12.14.19:969][903]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2023.02.05-12.14.54:087][673]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2023.02.05-12.14.54:090][673]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/KorzonkiOne/Levels/StartLevel' took 0.061
+[2023.02.05-12.14.54:091][673]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/KorzonkiOne/Blueprint/Game_UI] ([2] browsable assets)...
+[2023.02.05-12.14.54:094][673]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/KorzonkiOne/Blueprint/Game_UI.Game_UI]
+[2023.02.05-12.14.54:094][673]OBJ SavePackage: Finished generating thumbnails for package [/Game/KorzonkiOne/Blueprint/Game_UI]
+[2023.02.05-12.14.54:094][673]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Blueprint/Game_UI" FILE="../../../../../lubjam/Korzonki2023/Saved/Autosaves/Game/KorzonkiOne/Blueprint/Game_UI_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2023.02.05-12.14.54:399][673]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/KorzonkiOne/Blueprint/Game_UI_Auto6
+[2023.02.05-12.14.54:399][673]LogSavePackage: Moving '../../../../../lubjam/Korzonki2023/Saved/Game_UI_Auto6C7A539B1492B8F184B7B9C8CD055B9FC.tmp' to '../../../../../lubjam/Korzonki2023/Saved/Autosaves/Game/KorzonkiOne/Blueprint/Game_UI_Auto6.uasset'
+[2023.02.05-12.14.54:399][673]LogFileHelpers: Auto-saving content packages took 0.310
+[2023.02.05-12.18.02:582][555]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'UWidget::SetVisibility' [Nie można odnaleźć określonego modułu.]
+[2023.02.05-12.19.41:360][787]BlueprintLog: New page: Compile Game_UI
+[2023.02.05-12.19.41:457][787]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2023.02.05-12.22.18:779][348]LogDerivedDataCache: C:/Users/egal1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.159 and deleted 0 files with total size 0 MiB. Scanned 2348 files in 2337 folders with total size 100 MiB.
+[2023.02.05-12.30.06:237][287]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'UWidget::SetVisibility' [Nie można odnaleźć określonego modułu.]
+[2023.02.05-12.30.36:093][811]BlueprintLog: New page: Compile Game_UI
+[2023.02.05-12.30.36:190][811]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2023.02.05-12.30.41:134][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2023.02.05-12.30.41:137][ 45]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/KorzonkiOne/Levels/StartLevel' took 0.063
+[2023.02.05-12.30.41:137][ 45]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/KorzonkiOne/Blueprint/Game_UI] ([2] browsable assets)...
+[2023.02.05-12.30.41:140][ 45]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/KorzonkiOne/Blueprint/Game_UI.Game_UI]
+[2023.02.05-12.30.41:140][ 45]OBJ SavePackage: Finished generating thumbnails for package [/Game/KorzonkiOne/Blueprint/Game_UI]
+[2023.02.05-12.30.41:140][ 45]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Blueprint/Game_UI" FILE="../../../../../lubjam/Korzonki2023/Saved/Autosaves/Game/KorzonkiOne/Blueprint/Game_UI_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2023.02.05-12.30.41:164][ 45]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/KorzonkiOne/Blueprint/Game_UI_Auto7
+[2023.02.05-12.30.41:164][ 45]LogSavePackage: Moving '../../../../../lubjam/Korzonki2023/Saved/Game_UI_Auto76D739DA54365BB252C8A8D96D26DEAF0.tmp' to '../../../../../lubjam/Korzonki2023/Saved/Autosaves/Game/KorzonkiOne/Blueprint/Game_UI_Auto7.uasset'
+[2023.02.05-12.30.41:164][ 45]LogFileHelpers: Auto-saving content packages took 0.029
+[2023.02.05-12.31.18:930][988]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'UWidget::SetVisibility' [Nie można odnaleźć określonego modułu.]
+[2023.02.05-12.31.59:145][ 37]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'UWidget::SetVisibility' [Nie można odnaleźć określonego modułu.]
+[2023.02.05-12.33.02:278][173]BlueprintLog: New page: Compile Game_UI
+[2023.02.05-12.33.02:372][173]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2023.02.05-12.34.06:250][391]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2023.02.05-12.34.08:773][391]LogSlate: Window 'Save Content' being destroyed
+[2023.02.05-12.34.08:784][391]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.05-12.34.08:885][391]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/ArtAssets/drzewa/dorosłe" FILE="../../../../../lubjam/Korzonki2023/Content/KorzonkiOne/ArtAssets/drzewa/dorosłe.uasset" SILENT=true
+[2023.02.05-12.34.08:925][391]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/ArtAssets/drzewa/dorosłe
+[2023.02.05-12.34.08:925][391]LogSavePackage: Moving '../../../../../lubjam/Korzonki2023/Saved/dorosłeF7A3AA7243FC8F5018E1799CC006361A.tmp' to '../../../../../lubjam/Korzonki2023/Content/KorzonkiOne/ArtAssets/drzewa/dorosłe.uasset'
+[2023.02.05-12.34.08:929][391]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Blueprint/Game_UI" FILE="../../../../../lubjam/Korzonki2023/Content/KorzonkiOne/Blueprint/Game_UI.uasset" SILENT=true
+[2023.02.05-12.34.08:959][391]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Blueprint/Game_UI
+[2023.02.05-12.34.08:960][391]LogSavePackage: Moving '../../../../../lubjam/Korzonki2023/Saved/Game_UI6EE415B2415C079924E1A58D93A03610.tmp' to '../../../../../lubjam/Korzonki2023/Content/KorzonkiOne/Blueprint/Game_UI.uasset'
+[2023.02.05-12.34.09:178][391]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Music/Gigakoops_-_Revenge_from_Behind_the_Grave
+[2023.02.05-12.34.09:178][391]LogSavePackage: Moving '../../../../../lubjam/Korzonki2023/Saved/Gigakoops_-_Revenge_from_Behind_BED6EF7E48C40499A61B53935D3ACE7E.tmp' to '../../../../../lubjam/Korzonki2023/Content/KorzonkiOne/Music/Gigakoops_-_Revenge_from_Behind_the_Grave.uasset'
+[2023.02.05-12.34.09:179][391]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/ArtAssets/drzewa/kielkujace" FILE="../../../../../lubjam/Korzonki2023/Content/KorzonkiOne/ArtAssets/drzewa/kielkujace.uasset" SILENT=true
+[2023.02.05-12.34.09:181][391]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/ArtAssets/drzewa/kielkujace
+[2023.02.05-12.34.09:181][391]LogSavePackage: Moving '../../../../../lubjam/Korzonki2023/Saved/kielkujace6132182142ED9A13EE24B8919604D6DC.tmp' to '../../../../../lubjam/Korzonki2023/Content/KorzonkiOne/ArtAssets/drzewa/kielkujace.uasset'
+[2023.02.05-12.34.09:182][391]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/ArtAssets/drzewa/prawie_dorosle" FILE="../../../../../lubjam/Korzonki2023/Content/KorzonkiOne/ArtAssets/drzewa/prawie_dorosle.uasset" SILENT=true
+[2023.02.05-12.34.09:185][391]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/ArtAssets/drzewa/prawie_dorosle
+[2023.02.05-12.34.09:185][391]LogSavePackage: Moving '../../../../../lubjam/Korzonki2023/Saved/prawie_dorosleD05089284AE456418A0369883F3BFFDB.tmp' to '../../../../../lubjam/Korzonki2023/Content/KorzonkiOne/ArtAssets/drzewa/prawie_dorosle.uasset'
+[2023.02.05-12.34.09:185][391]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/ArtAssets/drzewa/ziarenko" FILE="../../../../../lubjam/Korzonki2023/Content/KorzonkiOne/ArtAssets/drzewa/ziarenko.uasset" SILENT=true
+[2023.02.05-12.34.09:188][391]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/ArtAssets/drzewa/ziarenko
+[2023.02.05-12.34.09:188][391]LogSavePackage: Moving '../../../../../lubjam/Korzonki2023/Saved/ziarenko1909F3984D4D9838FA00B9836122CE67.tmp' to '../../../../../lubjam/Korzonki2023/Content/KorzonkiOne/ArtAssets/drzewa/ziarenko.uasset'
+[2023.02.05-12.34.09:199][391]LogFileHelpers: InternalPromptForCheckoutAndSave took 414 ms (total: 1.27 sec)
+[2023.02.05-12.34.09:217][391]AssetCheck: New page: Asset Save: multiple assets
+[2023.02.05-12.34.09:217][391]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/KorzonkiOne/Blueprint/Game_UI.Game_UI
+[2023.02.05-12.34.09:218][391]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/KorzonkiOne/Music/Gigakoops_-_Revenge_from_Behind_the_Grave.Gigakoops_-_Revenge_from_Behind_the_Grave
+[2023.02.05-12.34.09:218][391]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/KorzonkiOne/ArtAssets/drzewa/ziarenko.ziarenko
+[2023.02.05-12.34.09:218][391]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/KorzonkiOne/ArtAssets/drzewa/prawie_dorosle.prawie_dorosle
+[2023.02.05-12.34.09:218][391]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/KorzonkiOne/ArtAssets/drzewa/dorosłe.dorosłe
+[2023.02.05-12.34.09:218][391]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/KorzonkiOne/ArtAssets/drzewa/kielkujace.kielkujace
+[2023.02.05-12.34.11:423][499]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.05-12.34.11:482][499]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Blueprint/Game_UI" FILE="../../../../../lubjam/Korzonki2023/Content/KorzonkiOne/Blueprint/Game_UI.uasset" SILENT=true
+[2023.02.05-12.34.11:509][499]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Blueprint/Game_UI
+[2023.02.05-12.34.11:510][499]LogSavePackage: Moving '../../../../../lubjam/Korzonki2023/Saved/Game_UI9DDB899B41AFCA43D6FD858CB83A673B.tmp' to '../../../../../lubjam/Korzonki2023/Content/KorzonkiOne/Blueprint/Game_UI.uasset'
+[2023.02.05-12.34.11:521][499]LogFileHelpers: InternalPromptForCheckoutAndSave took 97 ms (total: 1.36 sec)
+[2023.02.05-12.34.11:530][499]AssetCheck: New page: Asset Save: Game_UI
+[2023.02.05-12.34.11:530][499]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/KorzonkiOne/Blueprint/Game_UI.Game_UI
+[2023.02.05-12.34.16:057][739]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.05-12.34.16:114][739]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KorzonkiOne/Levels/StartLevel" FILE="../../../../../lubjam/Korzonki2023/Content/KorzonkiOne/Levels/StartLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.02.05-12.34.16:176][739]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2023.02.05-12.34.16:194][739]LogSavePackage: Moving output files for package: /Game/KorzonkiOne/Levels/StartLevel
+[2023.02.05-12.34.16:194][739]LogSavePackage: Moving '../../../../../lubjam/Korzonki2023/Saved/StartLevel556E837244BB514AF0D57394D5B5145F.tmp' to '../../../../../lubjam/Korzonki2023/Content/KorzonkiOne/Levels/StartLevel.umap'
+[2023.02.05-12.34.16:207][739]LogFileHelpers: Saving map 'StartLevel' took 0.093
+[2023.02.05-12.34.16:214][739]LogFileHelpers: InternalPromptForCheckoutAndSave took 157 ms (total: 1.52 sec)
+[2023.02.05-12.34.16:223][739]AssetCheck: New page: Asset Save: StartLevel
+[2023.02.05-12.34.16:223][739]LogContentValidation: Display: Validating /Script/Engine.World /Game/KorzonkiOne/Levels/StartLevel.StartLevel
